@@ -1,0 +1,4 @@
+3500;26;Vasia;Employee
+2500;31;Vova;Employee
+3500;36;Petia;Employee
+5500;46;Grisha;Manager/n

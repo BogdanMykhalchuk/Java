@@ -1,0 +1,8 @@
+3;06.10.1954;915;ApartmentHouse;62
+9;06.10.1955;1014;ApartmentHouse;61
+5;12.06.1955;1987;ApartmentHouse;61
+5;15.04.1955;807;ApartmentHouse;61
+1;06.09.1973;9298;WareHouse;43
+2;06.10.1975;10298;WareHouse;41
+3;06.10.1975;8500;WareHouse;41
+1;06.11.1976;4200;WareHouse;39

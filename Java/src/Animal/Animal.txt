@@ -1,0 +1,10 @@
+Duck;2;0.50;500;true;1.00;FlyingAnimal
+Sparrow;1;0.10;50;false;0.10;FlyingAnimal
+Dove;3;0.40;100;false;1.20;FlyingAnimal
+Cat;5;2.40;10;true;12.00;WalkingAnimal
+Raven;18;1.50;150;false;27.00;FlyingAnimal
+Eagle;7;4.00;600;false;28.00;FlyingAnimal
+Dog;11;5.80;11;false;63.80;WalkingAnimal
+Tiger;15;22.40;15;true;336.00;WalkingAnimal
+Bear;14;64.00;5;true;896.00;WalkingAnimal
+Elephant;35;224.00;10;false;7840.00;WalkingAnimal

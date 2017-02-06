@@ -1,0 +1,6 @@
+Eagle;340;Swim;Fly
+Arrow;280;Swim;Fly
+Harpy;140;Swim;Drive
+Woolf;110;Swim;Drive
+Tuna;90;Swim;Drive;Dive
+Whale;80;Swim;Drive;Dive

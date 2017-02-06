@@ -1,0 +1,22 @@
+
+<Book numberPages="250">
+    <author>Mark Twen</author>
+    <comments>
+        <comment>
+            <author>Bogdan</author>
+            <body>Error</body>
+            <numberOfLines>2</numberOfLines>
+        </comment>
+        <comment>
+            <author>Kolia</author>
+            <body>Error2</body>
+            <numberOfLines>3</numberOfLines>
+        </comment>
+        <comment>
+            <author>Kolia</author>
+            <body>Error3</body>
+            <numberOfLines>1</numberOfLines>
+        </comment>
+    </comments>
+    <title>Book 1</title>
+</Book>
