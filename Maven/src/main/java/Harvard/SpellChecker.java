@@ -11,21 +11,14 @@ import java.util.regex.Pattern;
  */
 public class SpellChecker {
 
-//    private static BufferedWriter writeToFile;
-
     private static Writer out;
 
-    private static long timeInLoadDictionary;
-    private static long timeInLoadText;
-    private static long timeInCheck;
-    private static long timeInSize;
-    private static long timeTowriteToFile;
-    private static File file = new File("C:\\Users\\Dreawalker\\Downloads\\New\\pset5\\checked.txt");
+    private static File file = new File("C:\\Users\\Bogdan\\Desktop\\Java\\pset5\\checked.txt");
 
     static void spellCheck(String filePath) {
 
         GregorianCalendar startLoadDictionary = new GregorianCalendar();
-        HashSet<String> dictionarySet = dictionaryLoad("C:\\Users\\Dreawalker\\Downloads\\New\\pset5\\dictionaries\\large");
+        HashSet<String> dictionarySet = dictionaryLoad("C:\\Users\\Bogdan\\Desktop\\Java\\pset5\\dictionaries\\large");
         GregorianCalendar finishLoadDictionary = new GregorianCalendar();
 
         GregorianCalendar startLoadText = new GregorianCalendar();
@@ -46,21 +39,21 @@ public class SpellChecker {
         writeToFile(misspelledWords);
         GregorianCalendar finishWriting = new GregorianCalendar();
 
-        timeInLoadDictionary = finishLoadDictionary.getTimeInMillis() - startLoadDictionary.getTimeInMillis();
-        timeInLoadText = finishLoadText.getTimeInMillis() - startLoadText.getTimeInMillis();
-        timeInCheck = finishCheckText.getTimeInMillis() - startCheckText.getTimeInMillis();
-        timeInSize = finishSizing.getTimeInMillis() - startSizing.getTimeInMillis();
-        timeTowriteToFile = finishWriting.getTimeInMillis() - startWriting.getTimeInMillis();
+        long timeInLoadDictionary = finishLoadDictionary.getTimeInMillis() - startLoadDictionary.getTimeInMillis();
+        long timeInLoadText = finishLoadText.getTimeInMillis() - startLoadText.getTimeInMillis();
+        long timeInCheck = finishCheckText.getTimeInMillis() - startCheckText.getTimeInMillis();
+        long timeInSize = finishSizing.getTimeInMillis() - startSizing.getTimeInMillis();
+        long timeTowriteToFile = finishWriting.getTimeInMillis() - startWriting.getTimeInMillis();
 
         try {
-            out.append("Виявлено помилок = " + wordsMisspelled).append("\n");
-            out.append("Всього слів у словнику = " + wordsDictionary).append("\n");
-            out.append("Всього слів у тексті = " + wordsText).append("\n");
-            out.append("Час завантаження словника = " + timeInLoadDictionary).append("\n");
-            out.append("Час завантаження тексту = " + timeInLoadText).append("\n");
-            out.append("Час преревірки = " + timeInCheck).append("\n");
-            out.append("Час визначення розміру = " + timeInSize).append("\n");
-            out.append("Час запису помилкових слів у файл = " + timeTowriteToFile).append("\n");
+            out.append("Виявлено помилок = ").append(String.valueOf(wordsMisspelled)).append("\n");
+            out.append("Всього слів у словнику = ").append(String.valueOf(wordsDictionary)).append("\n");
+            out.append("Всього слів у тексті = ").append(String.valueOf(wordsText)).append("\n");
+            out.append("Час завантаження словника = ").append(String.valueOf(timeInLoadDictionary)).append("\n");
+            out.append("Час завантаження тексту = ").append(String.valueOf(timeInLoadText)).append("\n");
+            out.append("Час преревірки = ").append(String.valueOf(timeInCheck)).append("\n");
+            out.append("Час визначення розміру = ").append(String.valueOf(timeInSize)).append("\n");
+            out.append("Час запису помилкових слів у файл = ").append(String.valueOf(timeTowriteToFile)).append("\n");
             out.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -101,6 +94,8 @@ public class SpellChecker {
                 arrayString = line.split("!\"'");
                 line = arrayToString(arrayString);
                 arrayString = line.split(",\"'");
+                line = arrayToString(arrayString);
+                arrayString = line.split("\\,''");
                 line = arrayToString(arrayString);
                 arrayString = line.split("\\,'");
                 line = arrayToString(arrayString);
@@ -235,13 +230,9 @@ public class SpellChecker {
             return tempArray;
         }
 
-        else if (Pattern.matches(".*\\p{InCyrillic}.*", string)) {
-            ArrayList<Character> list = new ArrayList<Character>();
+        else if (Pattern.matches(".*[^\\x00-\\x7F].*", string)) {
             ArrayList<String> stringList = new ArrayList<String>();
-            for(int i = 0x0410; i < 0x0450; i++) {
-                list.add((char)i);
-            }
-            tempArray = stringListArrayToArray(splitStringForCyrillic(string, list, stringList));
+            tempArray = stringListArrayToArray(splitStringForCirillic(string, stringList));
             return tempArray;
         }
 
@@ -286,10 +277,16 @@ public class SpellChecker {
             return tempArray;
         }
 
-        else if (string.startsWith("\'") && string.length() > 1) {
-            string = string.substring(1);
-            tempArray = new String[]{string};
-            return tempArray;
+        else if (string.startsWith("'") || string.startsWith("`")) {
+            if (string.length() > 1) {
+                string = string.substring(1);
+                tempArray = new String[]{string};
+                return tempArray;
+            } else {
+                tempArray = new String[]{string};
+                return tempArray;
+            }
+
         } else {
             tempArray = new String[]{string};
             return tempArray;
@@ -326,7 +323,7 @@ public class SpellChecker {
             out.append("MISSPELLED WORDS" + "\n");
             out.append("\n");
             for(String string : misspelledWords) {
-                    out.append(string).append("\n");
+                out.append(string).append("\n");
             }
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
@@ -337,12 +334,11 @@ public class SpellChecker {
         }
     }
 
-    private static ArrayList<String> splitStringForCyrillic(String string, ArrayList<Character> list, ArrayList<String> stringList) {
-        char[] chars;
+    private static ArrayList<String> splitStringForCirillic(String string, ArrayList<String> stringList) {
         int count = 0;
-        chars = string.toCharArray();
+        char[] chars = string.toCharArray();
         for (int i = 0; i < chars.length; i++) {
-            if (list.contains(chars[i])) {
+            if (Pattern.matches(".*[^\\x00-\\x7F].*", String.valueOf(chars[i]))) {
                 string = "";
                 for (int j = count; j < i; j++) {
                     string = string + chars[j];
