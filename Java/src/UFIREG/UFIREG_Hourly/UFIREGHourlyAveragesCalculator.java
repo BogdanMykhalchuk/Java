@@ -173,16 +173,20 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
                 } else {
                     finalList.add(NaN);
                 }
+
                 bufferedWriter.append(date).append(";");
+
                 for(Double object : finalList) {
                     bufferedWriter.append(object.toString()).append(";");
                 }
+
                 bufferedWriter.append('\n');
             }
 
         } catch(IOException e) {
             e.printStackTrace();
         }
+
         TheJobIsDone.printCongratulation();
     }
 
