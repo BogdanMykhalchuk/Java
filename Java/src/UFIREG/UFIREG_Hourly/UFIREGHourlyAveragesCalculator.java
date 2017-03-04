@@ -1,14 +1,13 @@
 package UFIREG.UFIREG_Hourly;
 
-import UFIREG.DailyAverageWindows;
-import UFIREG.TestFrame;
+import UFIREG.TheJobIsDone;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
 import java.util.List;
 
 import static java.lang.Character.isDigit;
@@ -94,10 +93,13 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
         List<Double> list7;
         List<Double> finalList;
         String[] array;
+        String date;
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outPutFile))) {
             String line = bufferedReader.readLine();
             while(line != null) {
+                array = line.split(";");
+                date = createDate(array[0]);
                 list1 = new ArrayList<>();
                 list2 = new ArrayList<>();
                 list3 = new ArrayList<>();
@@ -107,69 +109,72 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
                 list7 = new ArrayList<>();
                 finalList = new ArrayList<>();
                 for(int i = 0; i < 84; i++) {
-                    array = line.split(";");
-                    if (!array[3].equals("-999") && !array[4].equals("F")) {
-                        switch (array[2]) {
-                            case "801":
-                                list1.add(Double.parseDouble(array[3]));
-                                break;
-                            case "802":
-                                list2.add(Double.parseDouble(array[3]));
-                                break;
-                            case "803":
-                                list3.add(Double.parseDouble(array[3]));
-                                break;
-                            case "804":
-                                list4.add(Double.parseDouble(array[3]));
-                                break;
-                            case "805":
-                                list5.add(Double.parseDouble(array[3]));
-                                break;
-                            case "806":
-                                list6.add(Double.parseDouble(array[3]));
-                                break;
-                            case "807":
-                                list7.add(Double.parseDouble(array[3]));
-                                break;
+                    if (line != null) {
+                        array = line.split(";");
+                        if (!array[3].equals("-999") && !array[4].equals("F")) {
+                            switch (array[2]) {
+                                case "801":
+                                    list1.add(Double.parseDouble(array[3]));
+                                    break;
+                                case "802":
+                                    list2.add(Double.parseDouble(array[3]));
+                                    break;
+                                case "803":
+                                    list3.add(Double.parseDouble(array[3]));
+                                    break;
+                                case "804":
+                                    list4.add(Double.parseDouble(array[3]));
+                                    break;
+                                case "805":
+                                    list5.add(Double.parseDouble(array[3]));
+                                    break;
+                                case "806":
+                                    list6.add(Double.parseDouble(array[3]));
+                                    break;
+                                case "807":
+                                    list7.add(Double.parseDouble(array[3]));
+                                    break;
+                            }
                         }
-                    }
-                    if (dataAvailability(list1)) {
-                        finalList.add(average(list1));
-                    } else {
-                        finalList.add(NaN);
-                    }
-                    if (dataAvailability(list2)) {
-                        finalList.add(average(list2));
-                    } else {
-                        finalList.add(NaN);
-                    }
-                    if (dataAvailability(list3)) {
-                        finalList.add(average(list3));
-                    } else {
-                        finalList.add(NaN);
-                    }
-                    if (dataAvailability(list4)) {
-                        finalList.add(average(list4));
-                    } else {
-                        finalList.add(NaN);
-                    }
-                    if (dataAvailability(list5)) {
-                        finalList.add(average(list5));
-                    } else {
-                        finalList.add(NaN);
-                    }
-                    if (dataAvailability(list6)) {
-                        finalList.add(average(list6));
-                    } else {
-                        finalList.add(NaN);
-                    }
-                    if (dataAvailability(list7)) {
-                        finalList.add(average(list7));
-                    } else {
-                        finalList.add(NaN);
                     }
                     line = bufferedReader.readLine();
                 }
+                if (dataAvailability(list1)) {
+                    finalList.add(average(list1));
+                } else {
+                    finalList.add(NaN);
+                }
+                if (dataAvailability(list2)) {
+                    finalList.add(average(list2));
+                } else {
+                    finalList.add(NaN);
+                }
+                if (dataAvailability(list3)) {
+                    finalList.add(average(list3));
+                } else {
+                    finalList.add(NaN);
+                }
+                if (dataAvailability(list4)) {
+                    finalList.add(average(list4));
+                } else {
+                    finalList.add(NaN);
+                }
+                if (dataAvailability(list5)) {
+                    finalList.add(average(list5));
+                } else {
+                    finalList.add(NaN);
+                }
+                if (dataAvailability(list6)) {
+                    finalList.add(average(list6));
+                } else {
+                    finalList.add(NaN);
+                }
+                if (dataAvailability(list7)) {
+                    finalList.add(average(list7));
+                } else {
+                    finalList.add(NaN);
+                }
+                bufferedWriter.append(date).append(";");
                 for(Double object : finalList) {
                     bufferedWriter.append(object.toString()).append(";");
                 }
@@ -179,6 +184,7 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
         } catch(IOException e) {
             e.printStackTrace();
         }
+        TheJobIsDone.printCongratulation();
     }
 
     private static boolean checkFile(File file) {
@@ -196,15 +202,21 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
             }
         }
 
-        return fileName.substring(12, 16).equals(".txt");
+        return fileName.substring(11, 15).equals(".txt");
+    }
+
+    private static String createDate(String string) {
+        return string.substring(0, 2) + "." + string.substring(2, 4) + ".20"
+                + string.substring(4, 6) + " " + string.substring(7, 9) + ":" +
+                string.substring(10, 12);
     }
 
     private static String getOutputFilepath(String filePath, File file) {
-        return filePath + file.getName().substring(0, file.getName().length() - 3) + "csv";
+        return filePath.substring(0, filePath.length() - 3) + "csv";
     }
 
     private static boolean dataAvailability(List<Double> list) {
-        return list.size() >= 216;
+        return list.size() >= 9;
     }
 
     private static double average(List<Double> list) {
