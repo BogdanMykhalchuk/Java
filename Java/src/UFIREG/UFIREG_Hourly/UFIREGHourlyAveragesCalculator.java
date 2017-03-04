@@ -18,7 +18,6 @@ import static java.lang.Double.NaN;
  */
 class UFIREGHourlyAveragesCalculator extends JFrame{
     private static File inPutFile;
-    private static File outPutFile;
     private static String filePath;
     private UFIREGHourlyAveragesCalculator() {
         super("Програма попередньої обробки даних");
@@ -83,7 +82,7 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
         } else {
             throw new IllegalArgumentException("Невірний формат файлу!!!");
         }
-        outPutFile = new File(getOutputFilepath(filePath, file));
+        File outPutFile = new File(getOutputFilepath(filePath, file));
         List<Double> list1;
         List<Double> list2;
         List<Double> list3;
