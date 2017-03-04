@@ -8,7 +8,7 @@ import java.awt.event.WindowEvent;
 /**
  * Created by Kvitochka on 21.10.2016.
  */
-class TheJobIsDone extends JFrame {
+public class TheJobIsDone extends JFrame {
     private TheJobIsDone(String s){
         super(s);
         setSize(400, 150);
@@ -25,7 +25,7 @@ class TheJobIsDone extends JFrame {
         g.setFont(new Font("Serif", Font.ITALIC|Font.BOLD, 30));
         g.drawString("The job is done!!!", 20, 100);
     }
-    static void printCongratulation() {
+    public static void printCongratulation() {
         Frame f = new TheJobIsDone("Congratulations!");
     }
 }
