@@ -93,7 +93,7 @@ public class StringEditor {
 //		for(int i = 0; i < list.size(); i++) {
 //			for(int j = 1; j < list.size(); j++) {
 //				if(list.get(j - 1).getSalary() < list.get(j).getSalary()) {
-//					Employee tempEmployee = new Employee();
+//					Training.Employee tempEmployee = new Training.Employee();
 //					tempEmployee = list.get(j - 1);
 //					list.set(j - 1, list.get(j));
 //					list.set(j, tempEmployee);
@@ -105,7 +105,7 @@ public class StringEditor {
 //			for(int j = 1; j < list.size(); j++) {
 //				if(list.get(j - 1).getSalary() == list.get(j).getSalary()
 //					&& list.get(j - 1).getName() < list.get(j).getName()) {
-//					Employee tempEmployee = new Employee();
+//					Training.Employee tempEmployee = new Training.Employee();
 //					tempEmployee = list.get(j - 1);
 //					list.set(j - 1, list.get(j));
 //					list.set(j, tempEmployee);

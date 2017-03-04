@@ -3,7 +3,6 @@ package Habibulin;
 import java.io.*;
 import java.net.Socket;
 import java.util.Arrays;
-import java.util.StringTokenizer;
 
 /**
  * Created by Dreawalker on 05.02.2017.
@@ -26,11 +25,17 @@ public class Habibulin_006_HTTPConnect extends Thread {
             String req = br.readLine();
             System.out.println("Request: " + req);
 
-            String[] array = req.split(" ");
-            String[] temp = array[1].split("\\.");
+            String[] array = null;
+            if(req != null) {
+                array = req.split(" ");
+            }
+            String[] temp = null;
+            if(array != null) {
+                temp = array[1].split("\\.");
+            }
             System.out.println(Arrays.toString(temp));
 
-            if((array.length > 2) && array[0].equals("GET") && array[1].equals("/")) {
+            if(array != null && array.length > 2 && array[0].equals("GET") && array[1].equals("/")) {
                 try {
                     File f = new File("D:\\Web\\Hello.html");
                     BufferedReader bfr = new BufferedReader(new FileReader(f));
@@ -46,7 +51,7 @@ public class Habibulin_006_HTTPConnect extends Thread {
                 }
             }
 
-            else if((array.length > 2) && array[0].equals("GET") && !array[1].equals("/") && (temp[1].equals("css")
+            else if(array != null && array.length > 2 && array[0].equals("GET") && !array[1].equals("/") && (temp[1].equals("css")
                     || temp[1].equals("html"))) {
                 req = array[1].substring(1);
                 req = "D:\\Web\\" + req;
@@ -66,7 +71,7 @@ public class Habibulin_006_HTTPConnect extends Thread {
                 }
             }
 
-            else if((array.length > 2) && array[0].equals("GET") && !array[1].equals("/")) {
+            else if(array != null && array.length > 2 && array[0].equals("GET") && !array[1].equals("/")) {
                 req = array[1].substring(1);
                 req = "D:\\Web\\" + req;
                 System.out.println(req);

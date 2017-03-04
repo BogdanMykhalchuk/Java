@@ -2,42 +2,174 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4d181f2-3810-4ef0-921e-70a949ca85b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Habibulin/Habibulin_002_ArrayOfArrays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Habibulin/Habibulin_003_PrintTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Habibulin/Habibulin_004_GetWebPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_001_GetInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_001_PrintCharsFromString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_001_PrintCharsFromString_02.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_001_Switch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_002_Coins.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_002_Coins_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_002_WaterBottle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_004_DecriptionCesar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_004_EncriptionCesar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_005_DecriptionVigenere.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_005_EncriptionVigenere.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_001_JFrame_001.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_002_JFrame_002.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_003_Culculator_001.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_003_Culculator_002.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/XML/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/XML/Castomer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/XML/Comment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/XML/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/XML/Rental.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/Harvard_002_Decrypt_Brute_Force_Reapeted.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/Harvard_002_Decrypt_DES_AddLastLetter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/Harvard_002_Decrypt_DES_ReverseWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/Harvard_002_EncryptDESPass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/Harvard_004_Recovery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Maven/src/main/java/WEB/InsertToIngredientsWindow.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Animal/Animal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Animal/Animal.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Animal/AnimalComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Animal/AnimalProcessing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Animal/FlyingAnimal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Animal/WalkingAnimal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Animal/test.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Car/Bolid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Car/Car.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Car/CarComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Car/CarProcessing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Car/Machinery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Customer/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Customer/Castomer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Customer/Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Customer/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Customer/Rental.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Customer/XML.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee/Employee.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee/Employee.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee/EmployeeFixed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee/EmployeeHourly.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee/EmployeeProcessing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee/EmployeeSelaryComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee_1/EmployeeProcessing_1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee_1/Employee_1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee_1/Employee_Manager_1_Cpmparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee_1/Manager_1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Employee_1/Test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Fifteens/GameField$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Fifteens/GameField.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Fifteens/Harvard_016_Fifteens.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Fifteens/TheJobIsDone$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Fifteens/TheJobIsDone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Figures/Figures.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Figures/FiguresComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Figures/FiguresProcessing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Figures/PlaneFigures.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Figures/SolidFigures.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Furniture/Furniture.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Furniture/FurnitureShop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Furniture/FurnitureShopComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Furniture/FurnitureShopProcessing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Furniture/HourlyEmployee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Furniture/ProductivityEmployee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/House/ApartmentHouse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/House/House.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/House/House.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/House/HouseComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/House/HouseProcessing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/House/WareHouse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Manual/Manual_001_DeckOfCards.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Manual/Manual_002_PlayingCard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Manual/Manual_003_ShowDeckOfCards.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Manual/Manual_004_NumberHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Manual/Manual_005_NumberHolderObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/Calculations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/MedicData.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/MedicalDataCalculated.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/MedicalDataCalculated.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/Start$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/Start$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/Start.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/TheJobIsDone$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/TheJobIsDone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Medic/Untitled.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/School/Pupil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/School/PupilComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/School/PupilHighSchool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/School/PupilJuniorSchool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/School/PupilProcession.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Swimable/Amphibian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Swimable/CrossCountryVehicle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Swimable/Hydroplane.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Swimable/Swimable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Swimable/Swimable.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Swimable/SwimableComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java/Swimable/SwimableProcessing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Fifteens/Harvard_016_Fifteens.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Training/Employee/Employee.doc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java/Harvard/GameField$1.class" afterPath="$PROJECT_DIR$/out/production/Java/Harvard/GameField$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java/Harvard/GameField.class" afterPath="$PROJECT_DIR$/out/production/Java/Harvard/GameField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java/Harvard/Harvard_016_Fifteens.class" afterPath="$PROJECT_DIR$/out/production/Java/Harvard/Harvard_016_Fifteens.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java/Test/TestTest.class" afterPath="$PROJECT_DIR$/out/production/Java/Test/TestTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Harvard/Harvard_016_Fifteens.java" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_016_Fifteens.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/StringEditor.java" afterPath="$PROJECT_DIR$/src/Test/StringEditor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/TestTest.java" afterPath="$PROJECT_DIR$/src/Test/TestTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Maven/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/../Maven/.idea/dbnavigator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Maven/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Maven/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/Maven.iml" afterPath="$PROJECT_DIR$/../Maven/Maven.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/pom.xml" afterPath="$PROJECT_DIR$/../Maven/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/src/main/java/Habibulin/Habibulin_006_HTTPConnect.java" afterPath="$PROJECT_DIR$/../Maven/src/main/java/Habibulin/Habibulin_006_HTTPConnect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/SpellChecker.java" afterPath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/SpellChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/Test.java" afterPath="$PROJECT_DIR$/../Maven/src/main/java/Harvard/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Animal/Animal.java" afterPath="$PROJECT_DIR$/src/Training/Animal/Animal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Animal/Animal.txt" afterPath="$PROJECT_DIR$/src/Training/Animal/Animal.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Animal/AnimalComparator.java" afterPath="$PROJECT_DIR$/src/Training/Animal/AnimalComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Animal/AnimalProcessing.java" afterPath="$PROJECT_DIR$/src/Training/Animal/AnimalProcessing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Animal/FlyingAnimal.java" afterPath="$PROJECT_DIR$/src/Training/Animal/FlyingAnimal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Animal/WalkingAnimal.java" afterPath="$PROJECT_DIR$/src/Training/Animal/WalkingAnimal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Animal/test.sql" afterPath="$PROJECT_DIR$/src/Training/Animal/test.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Car/Bolid.java" afterPath="$PROJECT_DIR$/src/Training/Car/Bolid.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Car/Car.java" afterPath="$PROJECT_DIR$/src/Training/Car/Car.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Car/CarComparator.java" afterPath="$PROJECT_DIR$/src/Training/Car/CarComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Car/CarProcessing.java" afterPath="$PROJECT_DIR$/src/Training/Car/CarProcessing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Car/Machinery.java" afterPath="$PROJECT_DIR$/src/Training/Car/Machinery.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Customer/Book.java" afterPath="$PROJECT_DIR$/src/Training/Customer/Book.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Customer/Castomer.java" afterPath="$PROJECT_DIR$/src/Training/Customer/Castomer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Customer/Comment.java" afterPath="$PROJECT_DIR$/src/Training/Customer/Comment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Customer/Main.java" afterPath="$PROJECT_DIR$/src/Training/Customer/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Customer/Rental.java" afterPath="$PROJECT_DIR$/src/Training/Customer/Rental.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Customer/XML.xml" afterPath="$PROJECT_DIR$/src/Training/Customer/XML.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee/Employee.java" afterPath="$PROJECT_DIR$/src/Training/Employee/Employee.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee/Employee.txt" afterPath="$PROJECT_DIR$/src/Training/Employee/Employee.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee/EmployeeFixed.java" afterPath="$PROJECT_DIR$/src/Training/Employee/EmployeeFixed.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee/EmployeeHourly.java" afterPath="$PROJECT_DIR$/src/Training/Employee/EmployeeHourly.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee/EmployeeProcessing.java" afterPath="$PROJECT_DIR$/src/Training/Employee/EmployeeProcessing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee/EmployeeSelaryComparator.java" afterPath="$PROJECT_DIR$/src/Training/Employee/EmployeeSelaryComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee_1/EmployeeProcessing_1.java" afterPath="$PROJECT_DIR$/src/Training/Employee_1/EmployeeProcessing_1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee_1/Employee_1.java" afterPath="$PROJECT_DIR$/src/Training/Employee_1/Employee_1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee_1/Employee_Manager_1_Cpmparator.java" afterPath="$PROJECT_DIR$/src/Training/Employee_1/Employee_Manager_1_Cpmparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee_1/Manager_1.java" afterPath="$PROJECT_DIR$/src/Training/Employee_1/Manager_1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Employee_1/Test.txt" afterPath="$PROJECT_DIR$/src/Training/Employee_1/Test.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Figures/Figures.java" afterPath="$PROJECT_DIR$/src/Training/Figures/Figures.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Figures/FiguresComparator.java" afterPath="$PROJECT_DIR$/src/Training/Figures/FiguresComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Figures/FiguresProcessing.java" afterPath="$PROJECT_DIR$/src/Training/Figures/FiguresProcessing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Figures/PlaneFigures.java" afterPath="$PROJECT_DIR$/src/Training/Figures/PlaneFigures.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Figures/SolidFigures.java" afterPath="$PROJECT_DIR$/src/Training/Figures/SolidFigures.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Furniture/Furniture.txt" afterPath="$PROJECT_DIR$/src/Training/Furniture/Furniture.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Furniture/FurnitureShop.java" afterPath="$PROJECT_DIR$/src/Training/Furniture/FurnitureShop.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Furniture/FurnitureShopComparator.java" afterPath="$PROJECT_DIR$/src/Training/Furniture/FurnitureShopComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Furniture/FurnitureShopProcessing.java" afterPath="$PROJECT_DIR$/src/Training/Furniture/FurnitureShopProcessing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Furniture/HourlyEmployee.java" afterPath="$PROJECT_DIR$/src/Training/Furniture/HourlyEmployee.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Furniture/ProductivityEmployee.java" afterPath="$PROJECT_DIR$/src/Training/Furniture/ProductivityEmployee.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/House/ApartmentHouse.java" afterPath="$PROJECT_DIR$/src/Training/House/ApartmentHouse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/House/House.java" afterPath="$PROJECT_DIR$/src/Training/House/House.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/House/House.txt" afterPath="$PROJECT_DIR$/src/Training/House/House.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/House/HouseComparator.java" afterPath="$PROJECT_DIR$/src/Training/House/HouseComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/House/HouseProcessing.java" afterPath="$PROJECT_DIR$/src/Training/House/HouseProcessing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/House/WareHouse.java" afterPath="$PROJECT_DIR$/src/Training/House/WareHouse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Manual/Manual_001_DeckOfCards.java" afterPath="$PROJECT_DIR$/src/Training/Manual/Manual_001_DeckOfCards.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Manual/Manual_002_PlayingCard.java" afterPath="$PROJECT_DIR$/src/Training/Manual/Manual_002_PlayingCard.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Manual/Manual_003_ShowDeckOfCards.java" afterPath="$PROJECT_DIR$/src/Training/Manual/Manual_003_ShowDeckOfCards.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Manual/Manual_004_NumberHolder.java" afterPath="$PROJECT_DIR$/src/Training/Manual/Manual_004_NumberHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Manual/Manual_005_NumberHolderObject.java" afterPath="$PROJECT_DIR$/src/Training/Manual/Manual_005_NumberHolderObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Medic/Calculations.java" afterPath="$PROJECT_DIR$/src/Training/Medic/Calculations.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Medic/MedicData.csv" afterPath="$PROJECT_DIR$/src/Training/Medic/MedicData.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Medic/MedicalDataCalculated.csv" afterPath="$PROJECT_DIR$/src/Training/Medic/MedicalDataCalculated.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Medic/MedicalDataCalculated.xlsx" afterPath="$PROJECT_DIR$/src/Training/Medic/MedicalDataCalculated.xlsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Medic/Start.java" afterPath="$PROJECT_DIR$/src/Training/Medic/Start.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Medic/TheJobIsDone.java" afterPath="$PROJECT_DIR$/src/Training/Medic/TheJobIsDone.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Medic/Untitled.docx" afterPath="$PROJECT_DIR$/src/Training/Medic/Untitled.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/School/Pupil.java" afterPath="$PROJECT_DIR$/src/Training/School/Pupil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/School/PupilComparator.java" afterPath="$PROJECT_DIR$/src/Training/School/PupilComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/School/PupilHighSchool.java" afterPath="$PROJECT_DIR$/src/Training/School/PupilHighSchool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/School/PupilJuniorSchool.java" afterPath="$PROJECT_DIR$/src/Training/School/PupilJuniorSchool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/School/PupilProcession.java" afterPath="$PROJECT_DIR$/src/Training/School/PupilProcession.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Swimable/Amphibian.java" afterPath="$PROJECT_DIR$/src/Training/Swimable/Amphibian.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Swimable/CrossCountryVehicle.java" afterPath="$PROJECT_DIR$/src/Training/Swimable/CrossCountryVehicle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Swimable/Hydroplane.java" afterPath="$PROJECT_DIR$/src/Training/Swimable/Hydroplane.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Swimable/Swimable.java" afterPath="$PROJECT_DIR$/src/Training/Swimable/Swimable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Swimable/Swimable.txt" afterPath="$PROJECT_DIR$/src/Training/Swimable/Swimable.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Swimable/SwimableComparator.java" afterPath="$PROJECT_DIR$/src/Training/Swimable/SwimableComparator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Swimable/SwimableProcessing.java" afterPath="$PROJECT_DIR$/src/Training/Swimable/SwimableProcessing.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,106 +185,135 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Harvard_004_DecriptionCesar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_004_DecriptionCesar.java">
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Harvard_005_DecriptionVigenere.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_005_DecriptionVigenere.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Habibulin_002_ArrayOfArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Habibulin/Habibulin_002_ArrayOfArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Habibulin_003_PrintTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Habibulin/Habibulin_003_PrintTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
-                <element signature="e#1147#1278#0" expanded="false" />
-                <element signature="e#1277#1278#0" expanded="false" />
+                <element signature="e#188#189#0" expanded="false" />
+                <element signature="e#222#223#0" expanded="false" />
+                <element signature="e#272#273#0" expanded="false" />
+                <element signature="e#357#358#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaProgramming_002_JFrame_002.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_002_JFrame_002.java">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaProgramming_003_Culculator_001.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_003_Culculator_001.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaProgramming_003_Culculator_002.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_003_Culculator_002.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="804">
-              <caret line="108" column="5" lean-forward="false" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#192#193#0" expanded="false" />
+                <element signature="e#226#227#0" expanded="false" />
+                <element signature="e#276#277#0" expanded="false" />
+                <element signature="e#361#362#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Habibulin_004_GetWebPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Habibulin/Habibulin_004_GetWebPage.java">
+      <file leaf-file-name="CompareStaff.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/CompareStaff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaProgramming_001_JFrame_001.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_001_JFrame_001.java">
+      <file leaf-file-name="StaffProcessing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/StaffProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/Staff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+              <folding>
+                <element signature="e#270#271#0" expanded="false" />
+                <element signature="e#297#298#0" expanded="false" />
+                <element signature="e#341#342#0" expanded="false" />
+                <element signature="e#373#374#0" expanded="false" />
+                <element signature="e#406#407#0" expanded="false" />
+                <element signature="e#434#435#0" expanded="false" />
+                <element signature="e#477#478#0" expanded="false" />
+                <element signature="e#511#512#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding>
+                <element signature="e#192#193#0" expanded="false" />
+                <element signature="e#226#227#0" expanded="false" />
+                <element signature="e#276#277#0" expanded="false" />
+                <element signature="e#361#362#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding>
+                <element signature="e#188#189#0" expanded="false" />
+                <element signature="e#222#223#0" expanded="false" />
+                <element signature="e#272#273#0" expanded="false" />
+                <element signature="e#357#358#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/StaffComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="50" />
+              <folding>
+                <element signature="e#185#186#0" expanded="false" />
+                <element signature="e#245#246#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffProcessing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/StaffProcessing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Harvard_005_EncriptionVigenere.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_005_EncriptionVigenere.java">
+      <file leaf-file-name="TestTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,36 +349,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Harvard/Harvard_004_BMP_Robot.java" />
-        <option value="$PROJECT_DIR$/src/Harvard/Harvard_004_BMPResize.java" />
-        <option value="$PROJECT_DIR$/src/Harvard/Harvard_006_FirstLetter2.java" />
-        <option value="$PROJECT_DIR$/src/Harvard/Harvard_005_Array.java" />
-        <option value="$PROJECT_DIR$/src/House/ApartmentHouse.java" />
-        <option value="$PROJECT_DIR$/src/House/House.java" />
-        <option value="$PROJECT_DIR$/src/House/HouseComparator.java" />
-        <option value="$PROJECT_DIR$/src/House/HouseProcessing.java" />
-        <option value="$PROJECT_DIR$/src/House/WareHouse.java" />
-        <option value="$PROJECT_DIR$/src/Medic/Calculations.java" />
-        <option value="$PROJECT_DIR$/src/Medic/Start.java" />
-        <option value="$PROJECT_DIR$/src/Medic/TheJobIsDone.java" />
-        <option value="$PROJECT_DIR$/src/School/Pupil.java" />
-        <option value="$PROJECT_DIR$/src/School/PupilComparator.java" />
-        <option value="$PROJECT_DIR$/src/School/PupilHighSchool.java" />
-        <option value="$PROJECT_DIR$/src/School/PupilJuniorSchool.java" />
-        <option value="$PROJECT_DIR$/src/School/PupilProcession.java" />
-        <option value="$PROJECT_DIR$/src/Swimable/Amphibian.java" />
-        <option value="$PROJECT_DIR$/src/Swimable/CrossCountryVehicle.java" />
-        <option value="$PROJECT_DIR$/src/Swimable/Hydroplane.java" />
-        <option value="$PROJECT_DIR$/src/Swimable/Swimable.java" />
-        <option value="$PROJECT_DIR$/src/Swimable/SwimableComparator.java" />
-        <option value="$PROJECT_DIR$/src/Swimable/SwimableProcessing.java" />
-        <option value="$PROJECT_DIR$/src/UFIREG/DailyAverageWindows.java" />
-        <option value="$PROJECT_DIR$/src/UFIREG/DaylyAvarage.java" />
-        <option value="$PROJECT_DIR$/src/UFIREG/DaylyAverageNew.java" />
-        <option value="$PROJECT_DIR$/src/UFIREG/DaylyAverageWindows.java" />
-        <option value="$PROJECT_DIR$/src/UFIREG/TestFrame.java" />
-        <option value="$PROJECT_DIR$/src/UFIREG/TheJobIsDone.java" />
-        <option value="$PROJECT_DIR$/src/Harvard/Harvard_006_FirstLetter.java" />
         <option value="$PROJECT_DIR$/src/Test/GetString.java" />
         <option value="$PROJECT_DIR$/src/Test/DisplayDeck.java" />
         <option value="$PROJECT_DIR$/src/XML/Main.java" />
@@ -239,14 +370,44 @@
         <option value="$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_002_JFrame_002.java" />
         <option value="$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_003_Culculator_001.java" />
         <option value="$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_003_Culculator_002.java" />
+        <option value="$PROJECT_DIR$/src/Harvard/Harvard_016_Fifteens.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_1/Employee_1.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_1/EmployeeProcessing_1.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee/EmployeeFixed.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee/EmployeeHourly.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee/EmployeeProcessing.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee/EmployeeSelaryComparator.java" />
+        <option value="$PROJECT_DIR$/src/Training/Staff/Staff.java" />
+        <option value="$PROJECT_DIR$/src/Training/Staff/CompareStaff.java" />
+        <option value="$PROJECT_DIR$/src/Training/Staff/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Training/Staff/Manager.java" />
+        <option value="$PROJECT_DIR$/src/Training/Staff/StaffProcessing.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_3/CompareStaff.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_3/StaffProcessing.java" />
+        <option value="$PROJECT_DIR$/src/WEB/ConnectToDataBase.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_3/Manager.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_3/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_3/Staff.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_4/Staff.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_4/Manager.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_4/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_4/CompareStaff.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_4/StaffProcessing.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_5/Staff.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_5/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_5/Manager.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_5/StaffComparator.java" />
+        <option value="$PROJECT_DIR$/src/Training/Employee_5/StaffProcessing.java" />
+        <option value="$PROJECT_DIR$/src/Test/TestTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
     <option name="y" value="-5" />
-    <option name="width" value="1930" />
-    <option name="height" value="1042" />
+    <option name="width" value="1290" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -265,6 +426,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,33 +468,111 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Harvard" />
+              <option name="myItemId" value="Test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Maven" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Bogdan\Job\Java\Java\Java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetString">
-    <configuration default="false" name="GetString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestTest">
+    <configuration default="false" name="StaffProcessing (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Training.Employee_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Training.Employee_3.StaffProcessing" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StaffProcessing (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Training.Employee_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Training.Employee_4.StaffProcessing" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StaffProcessing (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Training.Employee_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Training.Employee_5.StaffProcessing" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Test.GetString" />
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Test.TestTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -512,6 +753,27 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="OdpsJavaConfigurationType" factoryName="MaxCompute Java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <odpsJavaType />
+      <mainClassName />
+      <odpsProjectName />
+      <tableName />
+      <tableColumns />
+      <tablePartition />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -548,12 +810,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.GetString" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.StaffProcessing (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StaffProcessing (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StaffProcessing (3)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.GetString" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StaffProcessing (3)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StaffProcessing (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StaffProcessing (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -571,51 +841,53 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1930" height="1042" extended-state="6" />
+    <frame x="-5" y="-5" width="1290" height="994" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2578125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33737865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -623,252 +895,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Manual/Manual_005_NumberHolderObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Medic/Calculations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Medic/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Medic/TheJobIsDone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/School/Pupil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/School/PupilComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/School/PupilHighSchool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/School/PupilJuniorSchool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/School/PupilProcession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Swimable/Amphibian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Swimable/CrossCountryVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Swimable/Hydroplane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Swimable/Swimable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Swimable/SwimableComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Swimable/SwimableProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UFIREG/TheJobIsDone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_006_FirstLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_004_Mario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/GetString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_016_Fifteens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/DisplayDeck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/Castomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/Rental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XML/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UFIREG/DailyAverageWindows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="209" column="0" lean-forward="true" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UFIREG/DaylyAverageWindows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3574">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UFIREG/DaylyAverageNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2068">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UFIREG/DaylyAvarage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3024">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UFIREG/TestFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_001_Switch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_001_GetInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_001_PrintCharsFromString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_001_PrintCharsFromString_02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -913,86 +939,354 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_004_DecriptionCesar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="221">
           <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_005_EncriptionVigenere.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
+        <state relative-caret-position="1326">
           <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_005_DecriptionVigenere.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="306">
           <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Habibulin/Habibulin_002_ArrayOfArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="357">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Habibulin/Habibulin_004_GetWebPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="391">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_001_JFrame_001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
+        <state relative-caret-position="1071">
           <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Habibulin/Habibulin_003_PrintTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="68">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#1147#1278#0" expanded="false" />
-            <element signature="e#1277#1278#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_002_JFrame_002.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="255">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/XML/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Harvard/Harvard_016_Fifteens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="150" column="6" lean-forward="false" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee/Employee.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/io/OptionalDataException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_1/Employee_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_1/Employee_Manager_1_Cpmparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_1/EmployeeProcessing_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee/EmployeeFixed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee/EmployeeHourly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee/EmployeeSelaryComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee/EmployeeProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="61" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Staff/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Staff/CompareStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Staff/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Staff/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Staff/StaffProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_3/CompareStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WEB/ConnectToDataBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/UFIREG/TestFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_3/StaffProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_3/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_3/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_003_Culculator_001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="153">
           <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaProgramming/JavaProgramming_003_Culculator_002.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="108" column="5" lean-forward="false" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+        <state relative-caret-position="1122">
+          <caret line="69" column="20" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_3/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#188#189#0" expanded="false" />
+            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#272#273#0" expanded="false" />
+            <element signature="e#357#358#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#192#193#0" expanded="false" />
+            <element signature="e#226#227#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/CompareStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_4/StaffProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
+          <folding>
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding>
+            <element signature="e#192#193#0" expanded="false" />
+            <element signature="e#226#227#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding>
+            <element signature="e#188#189#0" expanded="false" />
+            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#272#273#0" expanded="false" />
+            <element signature="e#357#358#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/StaffComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="50" />
+          <folding>
+            <element signature="e#185#186#0" expanded="false" />
+            <element signature="e#245#246#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Training/Employee_5/StaffProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
