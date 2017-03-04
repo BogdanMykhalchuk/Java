@@ -138,6 +138,7 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
                     }
                     line = bufferedReader.readLine();
                 }
+
                 if (dataAvailability(list1)) {
                     finalList.add(average(list1));
                 } else {
