@@ -220,7 +220,7 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
     }
 
     private static boolean dataAvailability(List<Double> list) {
-        return list.size() >= 9;
+        return list.size() >= 10;
     }
 
     private static double average(List<Double> list) {
