@@ -82,7 +82,7 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
         } else {
             throw new IllegalArgumentException("Невірний формат файлу!!!");
         }
-        File outPutFile = new File(getOutputFilepath(filePath, file));
+        File outPutFile = new File(getOutputFilepath(filePath));
         List<Double> list1;
         List<Double> list2;
         List<Double> list3;
@@ -215,12 +215,12 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
                 string.substring(10, 12);
     }
 
-    private static String getOutputFilepath(String filePath, File file) {
+    private static String getOutputFilepath(String filePath) {
         return filePath.substring(0, filePath.length() - 3) + "csv";
     }
 
     private static boolean dataAvailability(List<Double> list) {
-        return list.size() >= 9;
+        return list.size() >= 10;
     }
 
     private static double average(List<Double> list) {
