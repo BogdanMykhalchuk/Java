@@ -1,25 +1,24 @@
-package UFIREG.UFIREG_Hourly;
+package UFIREG.UFIREG_Five_Minute;
 
 import UFIREG.TheJobIsDone;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.util.ArrayList;
+import java.util.*;
 import java.util.List;
 
 import static java.lang.Character.isDigit;
 import static java.lang.Double.NaN;
 
 /**
- * Created by Bogdan on 03.03.2017.
+ * Created by Bogdan on 13.03.2017.
  */
-class UFIREGHourlyAveragesCalculator extends JFrame{
+public class UFIREGFiveMinAveragesCalculator extends JFrame{
     private static File inPutFile;
     private static String filePath;
-    private UFIREGHourlyAveragesCalculator() {
+    private UFIREGFiveMinAveragesCalculator() {
         super("Програма попередньої обробки даних");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
@@ -71,7 +70,7 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
             public void run() {
                 JFrame.setDefaultLookAndFeelDecorated(true);
                 JDialog.setDefaultLookAndFeelDecorated(true);
-                new UFIREGHourlyAveragesCalculator();
+                new UFIREGFiveMinAveragesCalculator();
             }
         });
     }
@@ -83,97 +82,84 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
             throw new IllegalArgumentException("Невірний формат файлу!!!");
         }
         File outPutFile = new File(getOutputFilepath(filePath));
-        List<Double> list1;
-        List<Double> list2;
-        List<Double> list3;
-        List<Double> list4;
-        List<Double> list5;
-        List<Double> list6;
-        List<Double> list7;
+        Double value1 = 0.0;
+        Double value2 = 0.0;
+        Double value3 = 0.0;
+        Double value4 = 0.0;
+        Double value5 = 0.0;
+        Double value6 = 0.0;
+        Double value7 = 0.0;
         List<Double> finalList;
         String[] array;
         String date;
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outPutFile))) {
+             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outPutFile))) {
             String line = bufferedReader.readLine();
             while(line != null) {
                 array = line.split(";");
                 date = createDate(array[0]);
-                list1 = new ArrayList<>();
-                list2 = new ArrayList<>();
-                list3 = new ArrayList<>();
-                list4 = new ArrayList<>();
-                list5 = new ArrayList<>();
-                list6 = new ArrayList<>();
-                list7 = new ArrayList<>();
                 finalList = new ArrayList<>();
-                for(int i = 0; i < 84; i++) {
-                    if (line != null) {
-                        array = line.split(";");
-                        if (!array[3].equals("-999") && !array[4].equals("F")) {
-                            switch (array[2]) {
-                                case "801":
-                                    list1.add(Double.parseDouble(array[3]));
-                                    break;
-                                case "802":
-                                    list2.add(Double.parseDouble(array[3]));
-                                    break;
-                                case "803":
-                                    list3.add(Double.parseDouble(array[3]));
-                                    break;
-                                case "804":
-                                    list4.add(Double.parseDouble(array[3]));
-                                    break;
-                                case "805":
-                                    list5.add(Double.parseDouble(array[3]));
-                                    break;
-                                case "806":
-                                    list6.add(Double.parseDouble(array[3]));
-                                    break;
-                                case "807":
-                                    list7.add(Double.parseDouble(array[3]));
-                                    break;
-                            }
+                for(int i = 0; i < 7; i++) {
+                    array = line.split(";");
+                    if (!array[3].equals("-999") && !array[4].equals("F")) {
+                        switch (array[2]) {
+                            case "801":
+                                value1 = Double.parseDouble(array[3]);
+                                break;
+                            case "802":
+                                value2 = Double.parseDouble(array[3]);
+                                break;
+                            case "803":
+                                value3 = Double.parseDouble(array[3]);
+                                break;
+                            case "804":
+                                value4 = Double.parseDouble(array[3]);
+                                break;
+                            case "805":
+                                value5 = Double.parseDouble(array[3]);
+                                break;
+                            case "806":
+                                value6 = Double.parseDouble(array[3]);
+                                break;
+                            case "807":
+                                value7 = Double.parseDouble(array[3]);
+                                break;
+                        }
+                    } else {
+                        switch (array[2]) {
+                            case "801":
+                                value1 = NaN;
+                                break;
+                            case "802":
+                                value2 = NaN;
+                                break;
+                            case "803":
+                                value3 = NaN;
+                                break;
+                            case "804":
+                                value4 = NaN;
+                                break;
+                            case "805":
+                                value5 = NaN;
+                                break;
+                            case "806":
+                                value6 = NaN;
+                                break;
+                            case "807":
+                                value7 = NaN;
+                                break;
                         }
                     }
                     line = bufferedReader.readLine();
                 }
 
-                if (dataAvailability(list1)) {
-                    finalList.add(average(list1));
-                } else {
-                    finalList.add(NaN);
-                }
-                if (dataAvailability(list2)) {
-                    finalList.add(average(list2));
-                } else {
-                    finalList.add(NaN);
-                }
-                if (dataAvailability(list3)) {
-                    finalList.add(average(list3));
-                } else {
-                    finalList.add(NaN);
-                }
-                if (dataAvailability(list4)) {
-                    finalList.add(average(list4));
-                } else {
-                    finalList.add(NaN);
-                }
-                if (dataAvailability(list5)) {
-                    finalList.add(average(list5));
-                } else {
-                    finalList.add(NaN);
-                }
-                if (dataAvailability(list6)) {
-                    finalList.add(average(list6));
-                } else {
-                    finalList.add(NaN);
-                }
-                if (dataAvailability(list7)) {
-                    finalList.add(average(list7));
-                } else {
-                    finalList.add(NaN);
-                }
+                finalList.add(value1);
+                finalList.add(value2);
+                finalList.add(value3);
+                finalList.add(value4);
+                finalList.add(value5);
+                finalList.add(value6);
+                finalList.add(value7);
 
                 bufferedWriter.append(date).append(";");
 
@@ -216,19 +202,6 @@ class UFIREGHourlyAveragesCalculator extends JFrame{
     }
 
     private static String getOutputFilepath(String filePath) {
-        return filePath.substring(0, filePath.length() - 4) + "_Hourly.csv";
-    }
-
-    private static boolean dataAvailability(List<Double> list) {
-        return list.size() >= 10;
-    }
-
-    private static double average(List<Double> list) {
-        Double j = 0.0;
-        for(Double object : list) {
-            j = j + object;
-        }
-        j = j / list.size();
-        return j;
+        return filePath.substring(0, filePath.length() - 4) + "_Five_Min.csv";
     }
 }

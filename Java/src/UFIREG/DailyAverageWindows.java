@@ -26,8 +26,8 @@ public class DailyAverageWindows {
         try {
             String firstPartOfOutputFilePath = inputFilePath.substring(0, inputFilePath.lastIndexOf('\\') + 1);
             String secondPartOfOutputFilePath = inputFilePath.substring(inputFilePath.lastIndexOf('\\'),
-                    inputFilePath.length() - 3);
-            String outputFilePath = firstPartOfOutputFilePath + secondPartOfOutputFilePath + "csv";
+                    inputFilePath.length() - 4);
+            String outputFilePath = firstPartOfOutputFilePath + secondPartOfOutputFilePath + "_Daily.csv";
             FileWriter fileWriter = new FileWriter(outputFilePath);
             bufferedWriter = new BufferedWriter(fileWriter);
             calculation();
