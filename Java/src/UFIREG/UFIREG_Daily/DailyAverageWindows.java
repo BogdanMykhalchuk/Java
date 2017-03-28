@@ -1,4 +1,4 @@
-package UFIREG;
+package UFIREG.UFIREG_Daily;
 
 import java.io.*;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package UFIREG;
+package UFIREG.UFIREG_Daily;
 
 import javax.swing.*;
 import java.awt.*;
