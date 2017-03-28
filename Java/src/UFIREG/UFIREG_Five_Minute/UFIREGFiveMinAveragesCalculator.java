@@ -1,6 +1,6 @@
 package UFIREG.UFIREG_Five_Minute;
 
-import UFIREG.TheJobIsDone;
+import UFIREG.UFIREG_Daily.TheJobIsDone;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
