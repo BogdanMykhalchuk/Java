@@ -29,6 +29,6 @@ public class SnakeSection {
         if(this == o) return true;
         if(!(o instanceof SnakeSection)) return false;
         SnakeSection snakeSection = (SnakeSection)o;
-        return this.getX() == snakeSection.getX() && this.getY() == this.getY();
+        return this.getX() == snakeSection.getX() && this.getY() == snakeSection.getY();
     }
 }
