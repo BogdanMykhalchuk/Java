@@ -1,6 +1,6 @@
 package JavaRush.MultiThreading.task3008.client;
 
-import com.javarush.task.task30.task3008.ConsoleHelper;
+import JavaRush.MultiThreading.task3008.ConsoleHelper;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
