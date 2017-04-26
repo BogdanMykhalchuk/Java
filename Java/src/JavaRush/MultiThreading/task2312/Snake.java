@@ -26,6 +26,10 @@ public class Snake {
         return this.isAlive;
     }
 
+    public void setIsAlive(boolean isAlive) {
+        this.isAlive = isAlive;
+    }
+
     public SnakeDirection getDirection() {
         return this.direction;
     }
@@ -54,8 +58,10 @@ public class Snake {
     }
 
     public void move(int x, int y) {
-        this.checkBorders(this.sections.get(0));
-        this.checkBody(this.sections.get(0));
+        this.checkBorders(new SnakeSection(this.sections.get(0).getX() + x,
+                this.sections.get(0).getY() + y));
+        this.checkBody(new SnakeSection(this.sections.get(0).getX() + x,
+                this.sections.get(0).getY() + y));
         if(this.isAlive) {
             this.sections.add(0, new SnakeSection(this.sections.get(0).getX() + x,
                     this.sections.get(0).getY() + y));

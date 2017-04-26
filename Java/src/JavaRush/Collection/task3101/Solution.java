@@ -8,7 +8,7 @@ public class Solution {
 
     }
 
-    public static void deleteFile(File file) {
-        if (!file.delete()) System.out.println("Can not delete file with name " + file.getName());
-    }
+//    public static void deleteFile(File file) {
+//        if (!file.delete()) System.out.println("Can not delete file with name " + file.getName());
+//    }
 }

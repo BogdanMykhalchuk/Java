@@ -1,15 +1,14 @@
 package Test;
 
-import java.io.*;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
+import java.io.IOException;
 
-public class TestTest {
+public final class TestTest {
 
     public static void main(String[] args)throws IOException{
-        int i = 3;
-        int j = 5;
-        System.out.println(~j);
+        int i = TestTest.class.getModifiers();;
+        byte j = (byte)i;
+        int k = j & 0xFF;
+        System.out.println(i);
     }
 }
 

@@ -89,6 +89,7 @@ public class Room {
 
         //Выводим сообщение "Game Over"
         System.out.println("Game Over!");
+        System.exit(0);
     }
 
     /**
@@ -119,8 +120,7 @@ public class Room {
             System.out.println();
         }
         System.out.println();
-        System.out.println();
-        System.out.println();
+
     }
 
     /**
