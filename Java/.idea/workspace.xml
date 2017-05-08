@@ -5,130 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d181f2-3810-4ef0-921e-70a949ca85b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Habibulin/io/ConsoleHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Habibulin/io/FileManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3101/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3102/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3103/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3103/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3103/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3104/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3104/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3104/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3105/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3105/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3105/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3106/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3106/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3106/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3107/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3107/ConcreteFileData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3107/FileData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3107/NullFileData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3107/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3107/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3108/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3108/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3108/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3109/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3109/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3109/properties.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3109/properties.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3109/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3111/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3112/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3112/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3112/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3113/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3113/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3113/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3201/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3201/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3201/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3202/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3202/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3202/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3203/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3203/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3203/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3204/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3204/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3204/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3205/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3205/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3205/SomeInterfaceWithMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3205/SomeInterfaceWithMethodsImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3205/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3206/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3206/Big.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3206/Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3206/ItemInvocationHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3206/Small.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3206/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3206/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3207/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3207/DoubleString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3207/DoubleStringImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3207/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3207/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3208/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3208/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3208/Cat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3208/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3208/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3208/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3210/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3210/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3210/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3211/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3211/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3211/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/Cache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/ServiceLocator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/contex/InitialContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/service/Service.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/service/impl/EJBServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/service/impl/JMSServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3212/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3213/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3213/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/Collection/task3213/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/ExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/HTMLFileFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/MenuHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/View.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/actions/RedoAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/actions/StrikeThroughAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/actions/SubscriptAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/actions/SuperscriptAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/actions/UndoAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/listeners/FrameListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/listeners/TabbedPaneChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/listeners/TextEditMenuListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/listeners/UndoListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/listeners/UndoMenuListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/HTMLEditor/Условие.jrtc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/NotationCalculiator/Number.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/NotationCalculiator/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task3001/Number.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task3001/NumerationSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task3001/NumerationSystemType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task3001/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task3001/Условие.jrtc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java/Test/TestTest.class" afterPath="$PROJECT_DIR$/out/production/Java/Test/TestTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java/Training/School/PupilHighSchool.class" afterPath="$PROJECT_DIR$/out/production/Java/Training/School/PupilHighSchool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java/Training/School/PupilJuniorSchool.class" afterPath="$PROJECT_DIR$/out/production/Java/Training/School/PupilJuniorSchool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Harvard/Harvard_012_Sorting_Inserts.java" afterPath="$PROJECT_DIR$/src/Harvard/Harvard_012_Sorting_Inserts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task2304/DbMock.java" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task2304/DbMock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task2304/Solution.java" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task2304/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task2309/AbstractDbSelectExecutor.java" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task2309/AbstractDbSelectExecutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task2309/Solution.java" afterPath="$PROJECT_DIR$/src/JavaRush/MultiThreading/task2309/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/TestTest.java" afterPath="$PROJECT_DIR$/src/Test/TestTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -747,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492707001812</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="08 05">
+      <created>1494259155709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1494259155709</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -798,7 +682,8 @@
     <MESSAGE value="31 03 Corrected" />
     <MESSAGE value="31 03 new" />
     <MESSAGE value="20 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="20 04" />
+    <MESSAGE value="08 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="08 05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
