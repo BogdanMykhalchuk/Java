@@ -1,7 +1,7 @@
 package JavaRush.Collection.task3212;
 
-import com.javarush.task.task32.task3212.service.Service;
 
+import JavaRush.Collection.task3212.service.Service;
 
 public class ServiceLocator {
     private static Cache cache;

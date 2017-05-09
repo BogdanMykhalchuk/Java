@@ -1,7 +1,7 @@
 package JavaRush.Collection.task3212.contex;
 
-import com.javarush.task.task32.task3212.service.impl.EJBServiceImpl;
-import com.javarush.task.task32.task3212.service.impl.JMSServiceImpl;
+import JavaRush.Collection.task3212.service.impl.EJBServiceImpl;
+import JavaRush.Collection.task3212.service.impl.JMSServiceImpl;
 
 public class InitialContext {
     public Object lookup(String jndiName) {

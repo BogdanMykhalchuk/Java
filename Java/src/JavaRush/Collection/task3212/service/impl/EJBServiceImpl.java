@@ -1,6 +1,6 @@
 package JavaRush.Collection.task3212.service.impl;
 
-import com.javarush.task.task32.task3212.service.Service;
+import JavaRush.Collection.task3212.service.Service;
 
 public class EJBServiceImpl implements Service {
 
