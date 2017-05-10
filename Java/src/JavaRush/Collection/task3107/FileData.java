@@ -1,0 +1,11 @@
+package JavaRush.Collection.task3107;
+
+public interface FileData {
+    boolean isHidden();
+
+    boolean isExecutable();
+
+    boolean isDirectory();
+
+    boolean isWritable();
+}

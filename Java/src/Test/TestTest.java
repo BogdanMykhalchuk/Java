@@ -1,24 +1,38 @@
 package Test;
 
-import org.w3c.dom.NodeList;
+public final class TestTest {
 
-import javax.swing.text.Document;
-import javax.swing.text.html.HTML;
-import javax.swing.text.html.parser.Parser;
-import java.io.*;
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
+    public static void main(String[] args) {
+        int[][] tiles = new int[4][4];
 
-public class TestTest {
+        int count = 0;
 
-    public static void main(String[] args)throws IOException {
+        for(int i = 0; i < 4; i++) {
+            for(int j = 0; j < 4; j++) {
+                tiles[i][j] = ++count;
+            }
+        }
+
+        for(int i = 0; i < 4; i++) {
+            for(int j = 0; j < 4; j++) {
+                System.out.print(tiles[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        int[][] temp = new int[4][4];
+        for(int i = 0; i < 4; i++) {
+            for(int j = 0; j < 4; j++) {
+                temp[j][4 - 1 - i] = tiles[i][j];
+            }
+        }
+
+        for(int i = 0; i < 4; i++) {
+            for(int j = 0; j < 4; j++) {
+                System.out.print(temp[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
 

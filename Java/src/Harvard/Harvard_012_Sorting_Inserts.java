@@ -15,7 +15,7 @@ public class Harvard_012_Sorting_Inserts {
         for(int i = 1; i < array.length; i++) {
             for(int j = i; j > 0; j--) {
                 if(array[j - 1] > array[j]) {
-                    int temp = array[j -1];
+                    int temp = array[j - 1];
                     array[j - 1] = array[j];
                     array[j] = temp;
                  }
