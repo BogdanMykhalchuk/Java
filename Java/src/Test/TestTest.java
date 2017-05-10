@@ -1,14 +1,24 @@
 package Test;
 
-import java.io.IOException;
+import org.w3c.dom.NodeList;
 
-public final class TestTest {
+import javax.swing.text.Document;
+import javax.swing.text.html.HTML;
+import javax.swing.text.html.parser.Parser;
+import java.io.*;
+import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 
-    public static void main(String[] args)throws IOException{
-        int i = TestTest.class.getModifiers();;
-        byte j = (byte)i;
-        int k = j & 0xFF;
-        System.out.println(i);
+public class TestTest {
+
+    public static void main(String[] args)throws IOException {
     }
 }
 

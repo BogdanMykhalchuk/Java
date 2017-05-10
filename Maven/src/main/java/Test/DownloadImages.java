@@ -14,9 +14,9 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 /**
- * Created by Dreawalker on 14.03.2017.
+ * Created by Bogdan on 10.05.2017.
  */
-public class Test {
+public class DownloadImages {
     public static void main(String[] args)throws IOException {
 //        Path source = Paths.get("D:/01.jpg");
 //        Path destination = Paths.get("\\\\192.168.1.68\\сеть вова\\Test\\01.jpg");

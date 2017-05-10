@@ -2,37 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ba3665-ab82-4707-9cb8-aeedf6191d1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Test/Test.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/46.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/DailyAverageWindows.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/DaylyAvarage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/DaylyAverageNew.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/DaylyAverageWindows.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/Test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/TestFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/TestFrame$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/TestFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/TheJobIsDone$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/TheJobIsDone.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/UFIREG_0814.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/out/production/Java/UFIREG/UFIREG_August.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/DaylyAvarage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/DaylyAverageNew.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/DaylyAverageWindows.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/Test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_0814.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_August.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Test/DownloadImages.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2304/DbMock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2304/Solution.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2304/ViewMock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2304/Условие.jrtc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2309/AbstractDbSelectExecutor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2309/Solution.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2309/vo/NamedItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2309/Условие.jrtc" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/out/production/Java/Test/TestTest.class" afterPath="$PROJECT_DIR$/../Java/out/production/Java/Test/TestTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/Collection/task3101/Solution.java" afterPath="$PROJECT_DIR$/../Java/src/JavaRush/Collection/task3101/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2107/Solution.java" afterPath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2107/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2108/Solution.java" afterPath="$PROJECT_DIR$/../Java/src/JavaRush/MultiThreading/task2108/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/src/Test/TestTest.java" afterPath="$PROJECT_DIR$/../Java/src/Test/TestTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_Five_Minute/UFIREGFiveMinAveragesCalculator.java" afterPath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_Five_Minute/UFIREGFiveMinAveragesCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_Hourly/UFIREGHourlyAveragesCalculator.java" afterPath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_Hourly/UFIREGHourlyAveragesCalculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/46.txt" afterPath="$PROJECT_DIR$/../Java/src/Training/Employee/Employee.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/DailyAverageWindows.java" afterPath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_Daily/DailyAverageWindows.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/TestFrame.java" afterPath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_Daily/TestFrame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Java/src/UFIREG/TheJobIsDone.java" afterPath="$PROJECT_DIR$/../Java/src/UFIREG/UFIREG_Daily/TheJobIsDone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Maven.iml" afterPath="$PROJECT_DIR$/Maven.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Test/Test.java" afterPath="$PROJECT_DIR$/src/main/java/Test/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +44,7 @@
       <file leaf-file-name="Habibulin_004_HTTPServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Habibulin/Habibulin_004_HTTPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="147">
               <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="false" />
@@ -67,7 +56,7 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WEB/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
+            <state relative-caret-position="1449">
               <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="false" />
@@ -79,30 +68,30 @@
       <file leaf-file-name="MyDataBaseConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WEB/MyDataBaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="777">
               <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1487525604084" expanded="true" signature="599:658" ph=" CREATE statement" />
-                <marker date="1487525604084" expanded="true" signature="1295:1375" ph=" UPDATE statement (INGREDIENTS)" />
-                <marker date="1487525604084" expanded="true" signature="1575:1598" ph=" INSERT statement (INGREDIENTS)" />
-                <marker date="1487525604084" expanded="true" signature="1575:1609" ph=" INSERT statement (INGREDIENTS)" />
-                <marker date="1487525604084" expanded="true" signature="1575:1618" ph=" INSERT statement (INGREDIENTS)" />
-                <marker date="1487525604084" expanded="true" signature="1575:1630" ph=" INSERT statement (INGREDIENTS)" />
-                <marker date="1487525604084" expanded="true" signature="1575:1631" ph=" INSERT statement (INGREDIENTS)" />
-                <marker date="1487525604084" expanded="true" signature="1669:1725" ph=" INSERT statement (INGREDIENTS)" />
-                <marker date="1487525604084" expanded="true" signature="1763:1819" ph=" INSERT statement (INGREDIENTS)" />
-                <marker date="1487525604084" expanded="true" signature="1935:1972" ph=" DELETE statement (INGREDIENTS)" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Test/Test.java">
+      <file leaf-file-name="DownloadImages.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test/DownloadImages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="426">
+              <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,8 +102,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="840">
+              <caret line="40" column="45" lean-forward="false" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -123,7 +112,7 @@
       <file leaf-file-name="Habibulin_005_HTTPConnect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Habibulin/Habibulin_005_HTTPConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="147">
               <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="false" />
@@ -176,9 +165,10 @@
         <option value="$PROJECT_DIR$/src/main/java/WEB/recipes/Test.txt" />
         <option value="$PROJECT_DIR$/src/main/java/WEB/rsourses/test.sql" />
         <option value="$PROJECT_DIR$/src/main/java/WEB/Test.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/WEB/MyDataBaseConnection.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test/DownloadImages.java" />
       </list>
     </option>
   </component>
@@ -206,8 +196,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
     <option name="y" value="-5" />
-    <option name="width" value="1290" />
-    <option name="height" value="994" />
+    <option name="width" value="1930" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,9 +215,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,38 +227,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,6 +293,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Job\Java\Java\Maven\src\main\java\WEB" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.Test (1)">
     <configuration default="false" name="Habibulin_004_HTTPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -585,26 +555,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="OdpsJavaConfigurationType" factoryName="MaxCompute Java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <odpsJavaType />
-      <odpsProjectName />
-      <tableName />
-      <tableColumns />
-      <tablePartition />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -694,44 +644,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="-5" width="1290" height="994" extended-state="6" />
-    <editor active="true" />
+    <frame x="-5" y="-5" width="1930" height="1042" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.49411765" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49411765" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20631067" sideWeight="0.687395" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2184466" sideWeight="0.48739496" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22180451" sideWeight="0.48739496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49411765" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1262136" sideWeight="0.5126051" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.49411765" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20631067" sideWeight="0.687395" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -780,13 +729,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Harvard/Harvard_004_Recovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Harvard/Harvard_005_SpellChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1061,7 +1003,7 @@
     <entry file="db://[Connection] CONSOLE - Connection" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Habibulin/Habibulin_005_HTTPConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="147">
           <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="false" />
@@ -1093,7 +1035,7 @@
     <entry file="db://[Connection] SESSION BROWSER - Connection" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Habibulin/Habibulin_004_HTTPServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="147">
           <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="false" />
@@ -1103,7 +1045,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WEB/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
+        <state relative-caret-position="1449">
           <caret line="72" column="45" lean-forward="false" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="false" />
@@ -1111,38 +1053,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/WEB/MyDataBaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="777">
+          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WEB/MyDataBaseConnection.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1487525604084" expanded="true" signature="599:658" ph=" CREATE statement" />
-            <marker date="1487525604084" expanded="true" signature="1295:1375" ph=" UPDATE statement (INGREDIENTS)" />
-            <marker date="1487525604084" expanded="true" signature="1575:1598" ph=" INSERT statement (INGREDIENTS)" />
-            <marker date="1487525604084" expanded="true" signature="1575:1609" ph=" INSERT statement (INGREDIENTS)" />
-            <marker date="1487525604084" expanded="true" signature="1575:1618" ph=" INSERT statement (INGREDIENTS)" />
-            <marker date="1487525604084" expanded="true" signature="1575:1630" ph=" INSERT statement (INGREDIENTS)" />
-            <marker date="1487525604084" expanded="true" signature="1575:1631" ph=" INSERT statement (INGREDIENTS)" />
-            <marker date="1487525604084" expanded="true" signature="1669:1725" ph=" INSERT statement (INGREDIENTS)" />
-            <marker date="1487525604084" expanded="true" signature="1763:1819" ph=" INSERT statement (INGREDIENTS)" />
-            <marker date="1487525604084" expanded="true" signature="1935:1972" ph=" DELETE statement (INGREDIENTS)" />
-          </folding>
+        <state relative-caret-position="840">
+          <caret line="40" column="45" lean-forward="false" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="420">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test/DownloadImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

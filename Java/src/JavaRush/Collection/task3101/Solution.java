@@ -1,6 +1,8 @@
 package JavaRush.Collection.task3101;
 
-/* 
+import java.io.File;
+
+/*
 Проход по дереву файлов
 */
 public class Solution {
