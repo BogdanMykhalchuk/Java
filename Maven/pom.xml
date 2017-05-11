@@ -41,6 +41,12 @@
             <artifactId>postgresql</artifactId>
             <version>9.4.1208-jdbc42-atlassian-hosted</version>
         </dependency>
+        <dependency>
+            <!-- jsoup HTML parser library @ http://jsoup.org/ -->
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.2</version>
+        </dependency>
     </dependencies>
 
 
