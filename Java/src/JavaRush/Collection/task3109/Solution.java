@@ -1,5 +1,8 @@
 package JavaRush.Collection.task3109;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
 import java.util.Properties;
 
 /* 
@@ -19,6 +22,19 @@ public class Solution {
     }
 
     public Properties getProperties(String fileName) {
-        return null;
+        Properties properties = new Properties();
+        String[] array = fileName.split("/");
+        String fileNameShort = array[array.length - 1];
+        System.out.println(fileNameShort);
+        try (FileInputStream fis = new FileInputStream(fileName)){
+            if(fileNameShort.endsWith(".xml")) {
+                properties.loadFromXML(fis);
+            } else {
+                properties.load(fis);
+            }
+        } catch(Exception e) {
+            return new Properties();
+        }
+        return properties;
     }
 }

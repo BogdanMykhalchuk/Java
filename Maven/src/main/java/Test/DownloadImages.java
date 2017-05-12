@@ -14,7 +14,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 /**
- * Created by Bogdan on 10.05.2017.
+ * Created by Bogdan on 12.05.2017.
  */
 public class DownloadImages {
     public static void main(String[] args)throws IOException {
