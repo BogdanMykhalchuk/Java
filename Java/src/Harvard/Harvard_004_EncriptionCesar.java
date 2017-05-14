@@ -44,13 +44,13 @@ public class Harvard_004_EncriptionCesar {
         System.out.println(textForEncription);
     }
 
-    public static String getString(String enter) {
+    static String getString(String enter) {
         System.out.println(enter);
         Scanner scan = new Scanner(System.in);
         String text = scan.nextLine();
         return text;
     }
-    public static int checkArgsInt(int x, String s) {
+    static int checkArgsInt(int x, String s) {
         int kTemp = 0;
         if (x == 1) {
             try {
