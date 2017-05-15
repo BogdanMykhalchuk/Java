@@ -6,12 +6,16 @@ public class SomeInterfaceWithMethodsImpl implements SomeInterfaceWithMethods {
     }
 
     public String stringMethodWithoutArgs() {
+        System.out.println("stringMethodWithoutArgs in");
         System.out.println("inside stringMethodWithoutArgs");
+        System.out.println("stringMethodWithoutArgs out");
         return null;
     }
 
     public void voidMethodWithIntArg(int i) {
+        System.out.println("voidMethodWithIntArg in");
         System.out.println("inside voidMethodWithIntArg");
         voidMethodWithoutArgs();
+        System.out.println("voidMethodWithIntArg out");
     }
 }

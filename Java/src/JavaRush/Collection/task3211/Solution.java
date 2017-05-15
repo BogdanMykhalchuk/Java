@@ -2,6 +2,7 @@ package JavaRush.Collection.task3211;
 
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectOutputStream;
+import java.security.MessageDigest;
 
 /* 
 Целостность информации
@@ -18,7 +19,16 @@ public class Solution {
     }
 
     public static boolean compareMD5(ByteArrayOutputStream byteArrayOutputStream, String md5) throws Exception {
-
-        return false;
+        MessageDigest messageDigest = MessageDigest.getInstance("md5");
+        messageDigest.update(byteArrayOutputStream.toByteArray());
+        byte[] bytes = messageDigest.digest();
+        StringBuilder sb = new StringBuilder();
+        for (int j = 0; j < bytes.length; j++) {
+            String s = Integer.toHexString(0xff & bytes[j]);
+            s = (s.length() == 1) ? "0" + s : s;
+            sb.append(s);
+        }
+        String newMd5 = sb.toString();
+        return md5.equals(newMd5);
     }
 }
