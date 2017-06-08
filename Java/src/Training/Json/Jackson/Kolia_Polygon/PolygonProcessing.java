@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class PolygonProcessing {
+class PolygonProcessing {
 
     public static void main(String[] args) throws IOException {
         List<Figure> figures = new ArrayList<>();
@@ -19,8 +19,11 @@ public class PolygonProcessing {
         figures.add(new Square(2, true));
 
         System.out.println(figures.stream().max(Comparator.comparing(Figure::getPerimeter)).get().getPerimeter());
-        objectsToFile("E:/test.txt", figures);
-        List<Figure> figures2 = getListFromFile("E:/test.txt");
+        objectsToFile("D:/test.txt", figures);
+        List<Figure> figures2 = getListFromFile("D:/test.txt");
+        for(Figure figure : figures2) {
+            System.out.println(figure.getClass() + "   " + figure.getPerimeter() + "   " + figure.getIsVisible());
+        }
     }
 
     public static void objectsToFile(String filepath, List<Figure> figures) throws IOException {

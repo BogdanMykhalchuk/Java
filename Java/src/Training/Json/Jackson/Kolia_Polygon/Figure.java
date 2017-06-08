@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         @JsonSubTypes.Type(value = Triangle.class),
         @JsonSubTypes.Type(value = Square.class)
 })
-public abstract class Figure {
+abstract class Figure {
 
     private boolean isVisible;
 

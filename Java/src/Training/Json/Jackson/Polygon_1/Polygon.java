@@ -1,22 +1,33 @@
 package Training.Json.Jackson.Polygon_1;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 
 /**
  * Created by Dreawalker on 07.06.2017.
  */
-@JsonAutoDetect
-public abstract class Polygon {
+@JsonTypeInfo(
+        use = JsonTypeInfo.Id.NAME,
+        include = JsonTypeInfo.As.PROPERTY,
+        property = "identifier"
+)
+@JsonSubTypes({
+        @JsonSubTypes.Type(value = Polygon.class),
+        @JsonSubTypes.Type(value = Triangle.class),
+        @JsonSubTypes.Type(value = Square.class)
+})
+abstract class Polygon {
 
     public double[] sides;
-    private boolean isVisible;
+    private boolean visible;
 
     public Polygon(){}
-    public Polygon(double[] sides, boolean isVisible) {
+    public Polygon(double[] sides, boolean visible) {
         if(sides.length == getNeededQuantityOfSides()) {
             this.sides = sides;
         }
-        this.isVisible = isVisible;
+        this.visible = visible;
     }
 
     public double[] getSides() {
@@ -30,13 +41,14 @@ public abstract class Polygon {
     }
 
     public boolean isVisible() {
-        return isVisible;
+        return visible;
     }
 
-    public void setIsVisible(boolean isVisible) {
-        this.isVisible = isVisible;
+    public void setVisible(boolean isVisible) {
+        this.visible = isVisible;
     }
 
+    @JsonIgnore
     public double getPerimeter() {
         double perimeter = 0.0;
         for(double side : sides) {
@@ -45,5 +57,6 @@ public abstract class Polygon {
         return perimeter;
     }
 
+    @JsonIgnore
     public abstract int getNeededQuantityOfSides();
 }

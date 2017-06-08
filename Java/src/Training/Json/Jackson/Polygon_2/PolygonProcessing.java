@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by Dreawalker on 07.06.2017.
  */
-public class PolygonProcessing {
+class PolygonProcessing {
 
     private static List<Polygon> polygons = new ArrayList<>();
 

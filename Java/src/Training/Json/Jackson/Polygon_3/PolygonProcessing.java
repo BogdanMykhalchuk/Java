@@ -19,7 +19,7 @@ import java.util.List;
 @JsonSubTypes({
         @JsonSubTypes.Type(value=Triangle.class, name="polygonProcessing")
 })
-public class PolygonProcessing {
+class PolygonProcessing {
 
     public List<Polygon> polygons = new ArrayList<>();
 

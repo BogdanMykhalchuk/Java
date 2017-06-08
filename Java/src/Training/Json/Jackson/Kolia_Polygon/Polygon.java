@@ -3,7 +3,7 @@ package Training.Json.Jackson.Kolia_Polygon;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Polygon extends Figure {
+class Polygon extends Figure {
 
     private List<Double> sides = new ArrayList<>();
 

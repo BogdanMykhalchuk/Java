@@ -1,6 +1,6 @@
 package Training.Json.Jackson.Kolia_Polygon;
 
-public class Square extends Figure {
+class Square extends Figure {
 
     private double a;
 

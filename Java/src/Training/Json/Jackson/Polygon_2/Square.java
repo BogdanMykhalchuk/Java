@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 @JsonSubTypes({
         @JsonSubTypes.Type(value= Square.class, name="square"),
 })
-public class Square extends Polygon {
+class Square extends Polygon {
 
     public Square(){}
     public Square(double[] sides, boolean isVisible) {
