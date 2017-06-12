@@ -1,17 +1,19 @@
 package Training.Json.Jackson.Polygon_1;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+@JsonIgnoreProperties({"identifier"})
+@JsonDeserialize(as = Polygon.class)
 
-/**
- * Created by Dreawalker on 07.06.2017.
- */
 class PolygonProcessing {
 
     public static void main(String[] args) throws IOException {
@@ -26,12 +28,19 @@ class PolygonProcessing {
         polygons.add(new Square(new double[]{4, 4, 4, 4}, true));
         polygons.add(new Square(new double[]{6, 6, 6, 6}, true));
 
-//        polygons.add(new Polygon(new double[]{15, 14, 26, 18, 47, 24, 38}, true) {
-//            @Override
-//            public int getNeededQuantityOfSides() {
-//                return 7;
-//            }
-//        });
+        polygons.add(new Polygon(new double[]{15, 14, 26, 18, 47, 24, 38}, true) {
+            @Override
+            public int getNeededQuantityOfSides() {
+                return 7;
+            }
+        });
+
+        polygons.add(new Polygon(new double[]{13, 15, 14, 26, 18, 47, 24, 38}, true) {
+            @Override
+            public int getNeededQuantityOfSides() {
+                return 8;
+            }
+        });
 
         polygons.sort(new Comparator<Polygon>() {
             @Override
@@ -56,7 +65,8 @@ class PolygonProcessing {
     }
 
     public static List<Polygon> getListFromFile(String filepath) throws IOException {
+        ObjectMapper objectMapper =  new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         return filepath.endsWith(".txt") ?
-                new ObjectMapper().readValue(new File(filepath), new TypeReference<ArrayList<Polygon>>() {}) : new ArrayList<>();
+                objectMapper.readValue(new File(filepath), new TypeReference<ArrayList<Polygon>>() {}) : new ArrayList<>();
     }
 }
