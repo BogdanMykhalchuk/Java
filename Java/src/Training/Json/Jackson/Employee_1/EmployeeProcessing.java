@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.IntStream;
+import java.util.stream.Collectors;
 
 public class EmployeeProcessing {
 	
@@ -18,7 +18,7 @@ public class EmployeeProcessing {
 			employees.add(new Employee("Petia" + i, "Petrov" + i, (Math.random() * 10 + 24) + (Math.random() * 20 + 36)));
 		}
 	}
-	public static Employee getEmplolyeeWithMaxSalary(List<Employee> employees) {
+	public static Employee getEmployeeWithMaxSalary(List<Employee> employees) {
 		return employees.stream().max(Comparator.comparing(Employee::getSalary)).get();
 	}
 	public static Employee getEmployeeWithMinHourlyRate(List<Employee> employees) {
@@ -30,7 +30,7 @@ public class EmployeeProcessing {
 	public static double getAverageSalary(List<Employee> employees) {
 		return employees.stream().mapToDouble(Employee::getSalary).average().getAsDouble();
 	}
-	public static void printHigherSalaryThanAvarage(List<Employee> employees) {
+	public static void printHigherSalaryThanAverage(List<Employee> employees) {
 		employees.stream().filter(e -> e.getSalary() > getAverageSalary(employees)).forEach(System.out::println);
 	}
 	public static void printAllNames(List<Employee> employees) {
@@ -38,14 +38,14 @@ public class EmployeeProcessing {
 	}
 	public static List<Employee> getLastNamesWhosNamesStartsWithA(List<Employee> employees) {
 		List<Employee> newList = new ArrayList<>();
-		employees.stream().filter(e -> e.getFirstName().startsWith("A")).forEach(newList.add(e));
+		employees.stream().filter(e -> e.getFirstName().startsWith("A")).collect(Collectors.toList());
 		return newList;
 	}
 	public static void printSalaryOfFirstThree(List<Employee> employees) {
-		employees.stream().IntStream.range(1, 4).map(Employee::getSalary).forEach(System.out::println);
+		employees.stream().limit(3).map(Employee::getSalary).forEach(System.out::println);
 	}
 	public static void printSalaryOfLastFive(List<Employee> employees) {
-		employees.stream().reversed().IntStream.range(1, 6).map(Employee::getSalary).forEach(System.out::println);
+		employees.stream().skip(employees.size() - 5).map(Employee::getSalary).forEach(System.out::println);
 	}
 	public static void objectToFile(String filepath, List<Employee> employees) throws IOException {
 		new ObjectMapper().writerFor(new TypeReference<ArrayList<Employee>>(){}).writeValue(new File(filepath), employees);
