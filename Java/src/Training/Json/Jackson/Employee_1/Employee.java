@@ -10,7 +10,7 @@ public class Employee {
 	private String lastName;
 	private double hourlyRate;
 	public Employee(){}
-	public Employee(String firstName, String lastNme, double hourlyRate) {
+	public Employee(String firstName, String lastName, double hourlyRate) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.hourlyRate = hourlyRate;
