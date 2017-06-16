@@ -13,15 +13,15 @@ public class EmployeeProcessing {
 	private static List<Employee> employees = new ArrayList<>();
 
 	public static void sortMaxWagesThenDescentNames() {
-		employees.sort(Comparator.comparing(Employee::getWages).redused()).thenComparing(Employee::getNames);
+		employees.sort(Comparator.comparing(Employee::getWages).reversed().thenComparing(Employee::getName));
 	}
-	public static printFirstThree() {
+	public static void printFirstThree() {
 		employees.stream().limit(3).forEach(System.out::println);
 	}
-	public static printLastFive() {
+	public static void printLastFive() {
 		employees.stream().skip(employees.size() - 5).forEach(System.out::println);
 	}
-	public static objectToFile(String filepath) throws IOException {
+	public static void objectToFile(String filepath) throws IOException {
 		new ObjectMapper().writerFor(new TypeReference<ArrayList<Employee>>(){}).writeValue(new File(filepath), employees);
 	}
 	public static List<Employee> getlistFromFile(String filepath) throws IOException {

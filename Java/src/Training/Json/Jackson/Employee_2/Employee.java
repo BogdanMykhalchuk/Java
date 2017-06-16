@@ -19,6 +19,22 @@ public class Employee {
 	}
 
 	//getters/setters
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getWages() {
+		return wages;
+	}
+
+	public void setWages(double wages) {
+		this.wages = wages;
+	}
 	//@Override
 	//public String toString(){}
 
