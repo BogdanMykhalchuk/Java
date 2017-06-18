@@ -5,9 +5,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Menu {
 	private static List<Dish> dishes = new ArrayList<>();
@@ -42,7 +41,16 @@ public class Menu {
 		return dishes.stream().filter(a -> a.getName().startsWith("B") && a.getName().endsWith("i")).mapToInt(Dish::getIngredientsNumber).sum();
 	}
 	public static boolean isThereEqualsSetsWithIngredients() {
-		return dishes.stream().map(Dish::getIngredients).distinct().count() > 0;
+		List<Set<Ingredient>> list1 = dishes.stream().map(Dish::getIngredients).collect(Collectors.toList());
+        List<Set<Ingredient>> list2 = new ArrayList<>(list1);
+		for(int i = 0; i < list1.size(); i++) {
+		    for(int j = 0; j < list2.size(); j++) {
+                if(list1.get(i).size() == list2.get(j).size() && list1.get(i).containsAll(list2.get(j))) {
+                    return true;
+                }
+            }
+        }
+		return false;
 	}
 	public static void setNamesAccordingContainingMeatOrFish() {
 		dishes.stream().filter(Dish::isContainsFish).forEach(a -> a.setName("FISH" + a.getName()));
