@@ -44,7 +44,7 @@ public class Menu {
 		List<Set<Ingredient>> list1 = dishes.stream().map(Dish::getIngredients).collect(Collectors.toList());
         List<Set<Ingredient>> list2 = new ArrayList<>(list1);
 		for(int i = 0; i < list1.size(); i++) {
-		    for(int j = 0; j < list2.size(); j++) {
+		    for(int j = i + 1; j < list2.size(); j++) {
                 if(list1.get(i).size() == list2.get(j).size() && list1.get(i).containsAll(list2.get(j))) {
                     return true;
                 }
@@ -53,7 +53,7 @@ public class Menu {
 		return false;
 	}
 	public static void setNamesAccordingContainingMeatOrFish() {
-		dishes.stream().filter(Dish::isContainsFish).forEach(a -> a.setName("FISH" + a.getName()));
+		dishes.stream().filter(Dish::isContainsFish).forEach(a -> a.setName(a.getName() + "FISH"));
 		dishes.stream().filter(Dish::isContainsMeat).forEach(a -> a.setName("MEAT" + a.getName()));
 	}
 	public static Dish getMostPopularDish() {

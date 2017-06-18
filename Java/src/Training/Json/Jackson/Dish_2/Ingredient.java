@@ -31,7 +31,7 @@ public class Ingredient {
         } else {
 		    return false;
         }
-	    return ingredient.name.equals(this.name) && ingredient.type.equals(this.type);
+	    return ingredient.name.equals(this.name) && ingredient.type == this.type;
 	}
 	
 }
