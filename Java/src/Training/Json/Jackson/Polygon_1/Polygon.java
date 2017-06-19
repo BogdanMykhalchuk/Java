@@ -18,6 +18,7 @@ abstract class Polygon {
 
     public double[] sides;
     private boolean visible;
+    private String name;
 
     public Polygon(){}
     public Polygon(double[] sides, boolean visible) {
@@ -35,6 +36,14 @@ abstract class Polygon {
         if(sides.length == getNeededQuantityOfSides()) {
             this.sides = sides;
         }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public boolean isVisible() {

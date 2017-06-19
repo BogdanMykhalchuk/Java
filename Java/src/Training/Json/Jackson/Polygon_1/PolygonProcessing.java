@@ -42,11 +42,12 @@ class PolygonProcessing {
             }
         });
 
-        polygons.sort(new Comparator<Polygon>() {
-            @Override
-            public int compare(Polygon o1, Polygon o2) {
-                return (int)(o2.getPerimeter() - o1.getPerimeter());
+        polygons.sort((o1, o2) -> {
+            int i = new Double(o1.getPerimeter()).compareTo(new Double(o2.getPerimeter()));
+            if(i == 0) {
+                i = o2.getName().compareTo(o1.getName());
             }
+            return i;
         });
 
         Polygon figureWithBiggestPerimeter = polygons.get(0);
