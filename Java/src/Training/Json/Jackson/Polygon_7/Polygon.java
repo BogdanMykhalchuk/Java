@@ -40,6 +40,7 @@ public abstract class Polygon {
     public double[] getSides() {
         return sides;
     }
+
 	@JsonIgnore
 	public double getPerimeter() {
 		double j = 0.0;
