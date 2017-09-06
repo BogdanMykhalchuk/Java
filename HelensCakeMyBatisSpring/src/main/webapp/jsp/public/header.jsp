@@ -29,8 +29,8 @@
 <br />
 
 <div class="container">
-    <form class="form-inline" action="/jsp/public/login.jsp?logout=true" method="POST">
-        <input type="submit" value="Log out" />
+    <form class="form-inline" action="/logout" method="POST">
+        <input type="submit" value="Вихід" />
         <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
     </form>
 </div>

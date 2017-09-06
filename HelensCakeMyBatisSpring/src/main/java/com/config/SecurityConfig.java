@@ -27,7 +27,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginPage("/login").failureForwardUrl("/jsp/public/login.jsp?error=true").successForwardUrl("/")
                 .permitAll()
                 .and()
-                .logout().logoutUrl("/jsp/public/login.jsp?logout=true")
+                .logout().logoutUrl("/logout").logoutSuccessUrl("/jsp/public/login.jsp?logout=true")
                 .permitAll();
     }
 

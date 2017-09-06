@@ -29,8 +29,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String userLogin) throws UsernameNotFoundException {
         System.out.println(userLogin + " The login provided.");
+        User user;
         try {
-            User user = userDAO.selectUserByUserName(userLogin);
+            user = userDAO.selectUserByUserName(userLogin);
             System.out.println(user.getName() + " User has been fetched.");
         } catch (UsernameNotFoundException u) {
             throw new UsernameNotFoundException("No such login registered: " + userLogin);
@@ -40,7 +41,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         boolean credentialsNonExpired = true;
         boolean accountNonLocked = true;
 
-        return new org.springframework.security.core.userdetails.User(userLogin, getOTPPassword(),
+        return new org.springframework.security.core.userdetails.User(userLogin, user.getPassword(),
                 true, accountNonExpired, credentialsNonExpired, accountNonLocked, getAuthorities(userLogin));
     }
 
