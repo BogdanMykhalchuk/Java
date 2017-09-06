@@ -1,0 +1,51 @@
+body {
+    align-content: center;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-family: Scriptorama, serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    background-color: yellow;
+}
+
+h2 {
+    color: red;
+    font-size: 48px;
+    font-family: "Хогвартский Волшебник", serif;
+}
+
+#body {
+    color: blue;
+}
+
+table {
+    align-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    width: 16.6%;
+    font-size:20px;
+    text-align: center;
+    align-content: center;
+    background: ivory;
+    color: blue;
+}
+
+#exception {
+    background-color: burlywood;
+    font-size: 20px;
+    color: crimson;
+}
+
+#fineExecution {
+    background-color: lawngreen;
+    font-size:20px;
+    color: #21405D;
+}

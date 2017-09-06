@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <typeHandlers>
+        <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" javaType="com.models.CoverType"/>
+        <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" javaType="com.models.DecorComplexity"/>
+        <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" javaType="com.models.Type"/>
+        <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" javaType="com.models.OrderStatus"/>
+        <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" javaType="com.models.UserRole"/>
+        <typeHandler handler="org.apache.ibatis.type.LocalDateTimeTypeHandler" javaType="java.time.LocalDateTime"/>
+    </typeHandlers>
+
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/helenscake?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value="DEMOTOoth2017@"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper class="com.mappers.IncisionMapper" />
+        <mapper class="com.mappers.CakeMapper" />
+        <mapper class="com.mappers.UserMapper" />
+        <mapper class="com.mappers.AddressMapper" />
+        <mapper class="com.mappers.UserCakeOrderMapper" />
+        <mapper class="com.mappers.UserPrintOrderMapper" />
+    </mappers>
+</configuration>
