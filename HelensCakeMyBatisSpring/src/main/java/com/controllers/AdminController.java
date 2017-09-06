@@ -2,6 +2,7 @@ package com.controllers;
 
 import com.dataValidation.DataValidation;
 import com.models.User;
+import com.models.UserRole;
 import com.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,21 +13,22 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Map;
 
 /**
- * Created by Dreawalker on 28.08.2017.
+ * Created by Dreawalker on 06.09.2017.
  */
-@Controller(value = "/userController/**")
-public class UserController {
+@Controller(value = "/adminController/**")
+public class AdminController {
 
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/userController/saveUser")
+    @RequestMapping(value = "/adminController/saveUser")
     public String saveUser(@RequestParam Map<String, String> requestParam, Model model) {
 
         boolean checkUserLogin = true;
         boolean checkUserPassWord = true;
         boolean checkUserName = true;
         boolean checkUserPhoneNumber = true;
+        boolean checkUserRole = true;
         boolean isUserSaved = false;
 
         String userLogin = requestParam.get("userLogin");
@@ -49,44 +51,47 @@ public class UserController {
             checkUserPhoneNumber = false;
         }
 
-        if(checkUserLogin && checkUserPassWord && checkUserName && checkUserPhoneNumber) {
-            User user = User.createUserWithoutRole(userLogin, userPassword, userName, userPhoneNumber);
+        String stringUserRole = requestParam.get("userRole");
+        UserRole userRole = UserRole.ROLE_CLIENT;
+        if(!UserRole.checkUserRole(stringUserRole)) {
+            checkUserRole = false;
+        } else {
+            userRole = UserRole.valueOf(stringUserRole);
+        }
+
+        if(checkUserLogin && checkUserPassWord && checkUserName && checkUserPhoneNumber && checkUserRole) {
+            User user = User.createUserWithRole(userLogin, userPassword, userName, userPhoneNumber, userRole);
             isUserSaved = userService.registerUser(user);
         }
 
-        model.addAttribute("isUserSaved", isUserSaved);
+        if(isUserSaved) {
+            model.addAttribute("isUserSaved", isUserSaved);
+            return "admin/admin";
+        }
+
         model.addAttribute("checkUserLogin", checkUserLogin);
         model.addAttribute("checkUserPassWord", checkUserPassWord);
         model.addAttribute("checkUserName", checkUserName);
         model.addAttribute("checkUserPhoneNumber", checkUserPhoneNumber);
+        model.addAttribute("checkUserRole", checkUserRole);
 
-        return "public/registration";
+        return "admin/adminRegistration";
     }
 
-    @RequestMapping(value = "/userController/getToRegistrationPage")
+    @RequestMapping(value = "/adminController/getToRegistrationPage")
     public String getToRegistrationPage(Model model) {
 
         boolean checkUserLogin = true;
         boolean checkUserPassWord = true;
         boolean checkUserName = true;
         boolean checkUserPhoneNumber = true;
-        boolean isUserSaved = false;
-        model.addAttribute("isUserSaved", isUserSaved);
+        boolean checkUserRole = true;
         model.addAttribute("checkUserLogin", checkUserLogin);
         model.addAttribute("checkUserPassWord", checkUserPassWord);
         model.addAttribute("checkUserName", checkUserName);
         model.addAttribute("checkUserPhoneNumber", checkUserPhoneNumber);
+        model.addAttribute("checkUserRole", checkUserRole);
 
-        return "public/registration";
-    }
-
-    @RequestMapping(value = "/userController/getToProfilePage")
-    public String getToProfilePage(Model model) {
-        return "user/profile";
-    }
-
-    @RequestMapping(value = "/userController/getToUserOrdersPage")
-    public String gerToUserOrdersPage(Model model) {
-        return "user/userOrders";
+        return "admin/adminRegistration";
     }
 }

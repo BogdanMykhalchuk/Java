@@ -11,25 +11,9 @@
         <%@include file="/jsp/public/header.jsp" %>
 
         <br />
-        <%--
-        <c:set var = "isUserValid" value = "${isUserValid}"/>
-        <c:if test = "${isUserValid == false}">
-            <br />
-            <br />
-            <div id = "exception">
-                <p>Такого користувача не існує</p>
-                <p>Перевірте правильність введення логіну та пароля</p>
-                <p>Якщо Ви не зареєстровані - зареєструйтесь - це значно спростить для Вас процедуру формування замовлення</p>
-            </div>
-            <br />
-            <br />
-            <c:set var = "isUserValid" value = "true"/>
-        </c:if>
-        --%>
-
         <br />
 
-        <a href="${pageContext.request.contextPath}/adminController?forward=true" id="adminButton">
+        <a href="/adminPageController" id="adminButton">
             <button>Адміністрування</button>
         </a>
 

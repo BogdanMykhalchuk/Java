@@ -22,6 +22,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/css/**", "/jsp/public/**").permitAll()
                 .antMatchers("/jsp/user/**").hasRole("CLIENT")
+//                .antMatchers("/jsp/admin/**").hasRole("ADMIN")
                 .and()
                 .formLogin()
                 .loginPage("/login").failureForwardUrl("/jsp/public/login.jsp?error=true").successForwardUrl("/")

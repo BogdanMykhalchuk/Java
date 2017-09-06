@@ -1,14 +1,14 @@
 <%--
   Created by IntelliJ IDEA.
-  User: Bogdan
-  Date: 28.08.2017
-  Time: 10:40
+  User: Dreawalker
+  Date: 06.09.2017
+  Time: 18:33
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
-        <title>Замовлення</title>
+        <title>Мій кабінет</title>
         <link href="${pageContext.request.contextPath}/css/index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -17,8 +17,8 @@
         <%@include file="/jsp/public/header.jsp" %>
         <br />
         <br />
-        <a href="/userController/getToProfilePage" id="adminButton">
-            <button>Вхід в особистий кабінет</button>
+        <a href="/userOrderController/getToUserOrdersPage" id="adminButton">
+            <button>Переглянути список моїх замовлень</button>
         </a>
     </body>
 </html>

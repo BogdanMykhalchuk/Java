@@ -4,6 +4,7 @@ public enum OrderStatus {
     PLACED,
     DECLINED,
     ACCEPTED,
+    PAID,
     EXECUTED;
 
     public static boolean checkOrderStatus(String string) {

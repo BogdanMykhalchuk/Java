@@ -19,8 +19,7 @@ public class UserService {
         return user != null;
     }
 
-    public boolean registerUser(String userLogin, String userPassword, String userName, String userPhoneNumber) {
-        User user = User.createUserWithoutRole(userLogin, userPassword, userName, userPhoneNumber);
+    public boolean registerUser(User user) {
         if(isUserExists(user.getLogin(), user.getPassword())) {
             return false;
         } else {
