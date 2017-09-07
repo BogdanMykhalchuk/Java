@@ -20,5 +20,15 @@
         <a href="/userController/getToProfilePage" id="adminButton">
             <button>Вхід в особистий кабінет</button>
         </a>
+        <br />
+        <br />
+        <a href="/userPrintOrderController/getToCreatePrintOrderPage" id="adminButton">
+            <button>Замовити їстівну картинку</button>
+        </a>
+        <br />
+        <br />
+        <a href="/userController/getToProfilePage" id="adminButton">
+            <button>Замовити щось солоденьке</button>
+        </a>
     </body>
 </html>

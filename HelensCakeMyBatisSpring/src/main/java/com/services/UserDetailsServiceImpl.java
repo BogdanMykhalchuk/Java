@@ -1,6 +1,7 @@
 package com.services;
 
 import com.dao.UserDAO;
+import com.models.SpringSecurityCustomUser;
 import com.models.User;
 import com.models.UserRole;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,7 +42,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         boolean credentialsNonExpired = true;
         boolean accountNonLocked = true;
 
-        return new org.springframework.security.core.userdetails.User(userLogin, user.getPassword(),
+        return new SpringSecurityCustomUser(user.getId(), userLogin, user.getPassword(),
                 true, accountNonExpired, credentialsNonExpired, accountNonLocked, getAuthorities(userLogin));
     }
 

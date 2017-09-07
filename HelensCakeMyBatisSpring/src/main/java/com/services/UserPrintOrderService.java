@@ -15,8 +15,8 @@ public class UserPrintOrderService {
     @Autowired
     private UserPrintOrderDAO userPrintOrderDAO;
 
-    public boolean createUserPrintOrder(User user, UserPrintOrder userPrintOrder) {
-        userPrintOrderDAO.insertUserPrintOrderByUserId(userPrintOrder, user.getId());
+    public boolean createUserPrintOrder(Integer userId, UserPrintOrder userPrintOrder) {
+        userPrintOrderDAO.insertUserPrintOrderByUserId(userPrintOrder, userId);
         return true;
     }
 
