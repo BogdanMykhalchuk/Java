@@ -63,4 +63,18 @@ public class CakeDAO {
         session.close();
         return true;
     }
+
+//    public boolean deleteAddress(Integer id){
+//        test(AddressMapper.class, (m) -> m.deleteAddress(id));
+//        return true;
+//    }
+//
+//    private <T, M> T test(Class<M> mapperClass, Function<M, T> function) {
+//        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
+//        M mapper = session.getMapper(mapperClass);
+//        T result = function.apply(mapper);
+//        session.commit();
+//        session.close();
+//        return result;
+//    }
 }
