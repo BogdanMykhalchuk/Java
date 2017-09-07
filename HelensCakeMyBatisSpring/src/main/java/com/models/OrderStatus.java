@@ -3,6 +3,8 @@ package com.models;
 public enum OrderStatus {
     PLACED,
     DECLINED,
+    CHANGED,
+    CANCELED,
     ACCEPTED,
     PAID,
     EXECUTED;

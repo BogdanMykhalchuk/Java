@@ -6,27 +6,27 @@ package com.models;
 public class UserPrintOrder {
     private Integer id;
     private String linkToImg;
-    private Cake cake;
     private boolean isTight;
     private Integer quantity;
     private OrderStatus orderStatus;
+    private String description;
 
     public UserPrintOrder() {
     }
 
-    public UserPrintOrder(Integer id, String linkToImg, Cake cake, boolean isTight, Integer quantity,
-                          OrderStatus orderStatus) {
+    public UserPrintOrder(Integer id, String linkToImg, boolean isTight,
+                          Integer quantity, OrderStatus orderStatus, String description) {
         this.id = id;
         this.linkToImg = linkToImg;
-        this.cake = cake;
         this.isTight = isTight;
         this.quantity = quantity;
         this.orderStatus = orderStatus;
+        this.description = description;
     }
 
-    public static UserPrintOrder createUserPrintOrderWithoutId(String linkToImg, Cake cake, boolean isTight,
-                                                               Integer quantity, OrderStatus orderStatus) {
-        return new UserPrintOrder(null, linkToImg, cake, isTight, quantity, orderStatus);
+    public static UserPrintOrder createUserPrintOrderWithoutId(String linkToImg, boolean isTight,
+                                                               Integer quantity, OrderStatus orderStatus, String description) {
+        return new UserPrintOrder(null, linkToImg, isTight, quantity, orderStatus, description);
     }
 
     public Integer getId() {
@@ -43,14 +43,6 @@ public class UserPrintOrder {
 
     public void setLinkToImg(String linkToImg) {
         this.linkToImg = linkToImg;
-    }
-
-    public Cake getCake() {
-        return cake;
-    }
-
-    public void setCake(Cake cake) {
-        this.cake = cake;
     }
 
     public boolean isTight() {
