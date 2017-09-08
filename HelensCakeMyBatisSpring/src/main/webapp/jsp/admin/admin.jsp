@@ -113,6 +113,7 @@
                     <input type="text" name="incisionPrice" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Вартість в долларах за кілограм':this.value;" value="Вартість в $ за кг" class="price"/>
                     <textarea name="incisionDescription" class="your-message">Інгредієнти ..</textarea>
                     <input type="submit" name="submit" value="Додати" class="send-message">
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 </form>
             </div>
             <div id="fade" class="black-overlay"></div>
@@ -131,6 +132,7 @@
                 <form action="/incisionController/deleteIncision" method="POST" accept-charset="UTF-8">
                     <input type="text" name="incisionId" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Номер артикула':this.value;" value="Номер артикула" class="your-name"/>
                     <input type="submit" name="submit" value="Видалити" class="send-message">
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 </form>
             </div>
         </div>
@@ -243,6 +245,7 @@
                             <option value="_3D">3D торт</option>
                         </select>
                     <input type="submit" name="submit" value="Додати" class="send-message">
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 </form>
             </div>
 
@@ -260,6 +263,7 @@
                 <form action="/cakeController/deleteCake" method="POST" accept-charset="UTF-8">
                     <input type="text" name="cakeId" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Номер артикула':this.value;" value="Номер артикула" class="your-name"/>
                     <input type="submit" name="submit" value="Видалити" class="send-message">
+                    <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 </form>
             </div>
         </div>

@@ -25,8 +25,8 @@ public interface  IncisionMapper {
 
     @Update("UPDATE incisions SET name=#{name}, description =#{description}, pathToInt =#{pathToInt}," +
             " price =#{price} WHERE id =#{id}")
-    void updateIncision(Incision incision);
+    boolean updateIncision(Incision incision);
 
     @Delete("DELETE FROM incisions WHERE id =#{id}")
-    void deleteIncision(Integer id);
+    boolean deleteIncision(Integer id);
 }
