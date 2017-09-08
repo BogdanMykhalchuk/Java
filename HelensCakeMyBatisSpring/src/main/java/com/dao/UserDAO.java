@@ -3,7 +3,6 @@ package com.dao;
 import com.mappers.UserMapper;
 import com.models.User;
 import com.utils.MyBatisUtil;
-import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -12,69 +11,42 @@ import java.util.List;
 public class UserDAO {
 
     public List<User> selectUsersFromDB() {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserMapper mapper = session.getMapper(UserMapper.class);
-        List<User> users = mapper.selectUsersFromDB();
-        session.close();
+        List<User> users = MyBatisUtil.testSearch(UserMapper.class, (m) -> m.selectUsersFromDB());
         return users;
     }
 
     public User selectUserById(Integer id) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserMapper mapper = session.getMapper(UserMapper.class);
-        User user = mapper.selectUserById(id);
-        session.close();
+        User user = MyBatisUtil.testSearch(UserMapper.class, (m) -> m.selectUserById(id));
         return user;
     }
 
     public User selectUserFromDbByPhoneNumber(String phoneNumber) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserMapper mapper = session.getMapper(UserMapper.class);
-        User user = mapper.selectUserFromDbByPhoneNumber(phoneNumber);
-        session.close();
+        User user = MyBatisUtil.testSearch(UserMapper.class, (m) -> m.selectUserFromDbByPhoneNumber(phoneNumber));
         return user;
     }
 
     public User selectUserByLoginPassword(String login, String password) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserMapper mapper = session.getMapper(UserMapper.class);
-        User user = mapper.selectUserByLoginPassword(login, password);
-        session.close();
+        User user = MyBatisUtil.testSearch(UserMapper.class, (m) -> m.selectUserByLoginPassword(login, password));
         return user;
     }
 
     public User selectUserByUserName(String login) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserMapper mapper = session.getMapper(UserMapper.class);
-        User user = mapper.selectUserByUserName(login);
-        session.close();
+        User user = MyBatisUtil.testSearch(UserMapper.class, (m) -> m.selectUserByUserName(login));
         return user;
     }
 
     public boolean insertUser(User user){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserMapper userMapper = session.getMapper(UserMapper.class);
-        userMapper.insertUser(user);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(UserMapper.class, (m) -> m.insertUser(user));
         return true;
     }
 
     public boolean updateUser(User user){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserMapper mapper = session.getMapper(UserMapper.class);
-        mapper.updateUser(user);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(UserMapper.class, (m) -> m.updateUser(user));
         return true;
     }
 
     public boolean deleteUser(Integer id){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserMapper mapper = session.getMapper(UserMapper.class);
-        mapper.deleteUser(id);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(UserMapper.class, (m) -> m.deleteUser(id));
         return true;
     }
 }

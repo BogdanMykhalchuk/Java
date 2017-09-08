@@ -3,7 +3,6 @@ package com.dao;
 import com.mappers.AddressMapper;
 import com.models.Address;
 import com.utils.MyBatisUtil;
-import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -12,51 +11,31 @@ import java.util.List;
 public class AddressDAO {
 
     public List<Address> selectAddressesFromDB() {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        AddressMapper mapper = session.getMapper(AddressMapper.class);
-        List<Address> addresses = mapper.selectAddressesFromDB();
-        session.close();
+        List<Address> addresses = MyBatisUtil.testSearch(AddressMapper.class, (m) -> m.selectAddressesFromDB());
         return addresses;
     }
 
     public Address selectAddressByOrderId(Integer id) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        AddressMapper mapper = session.getMapper(AddressMapper.class);
-        Address address = mapper.selectAddressByOrderId(id);
-        session.close();
+        Address address = MyBatisUtil.testSearch(AddressMapper.class, (m) -> m.selectAddressByOrderId(id));
         return address;
     }
 
     public Address selectAddressesById(Integer id) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        AddressMapper mapper = session.getMapper(AddressMapper.class);
-        Address address = mapper.selectAddressesById(id);
-        session.close();
+        Address address = MyBatisUtil.testSearch(AddressMapper.class, (m) -> m.selectAddressesById(id));
         return address;
     }
 
     public boolean insertAddressByOrderId(Address address, Integer orderId) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        AddressMapper mapper = session.getMapper(AddressMapper.class);
-        mapper.insertAddressByOrderId(address,orderId);
-        session.close();
+        MyBatisUtil.test(AddressMapper.class, (m) -> m.insertAddressByOrderId(address, orderId));
         return false;
     }
 
     public boolean updateAddress(Address address){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        AddressMapper mapper = session.getMapper(AddressMapper.class);
-        mapper.updateAddress(address);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(AddressMapper.class, (m) -> m.updateAddress(address));
         return true;
     }
     public boolean deleteAddress(Integer id){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        AddressMapper mapper = session.getMapper(AddressMapper.class);
-        mapper.deleteAddress(id);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(AddressMapper.class, (m) -> m.deleteAddress(id));
         return true;
     }
 }

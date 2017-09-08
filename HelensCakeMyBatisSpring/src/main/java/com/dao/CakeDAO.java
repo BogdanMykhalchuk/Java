@@ -4,7 +4,6 @@ import com.mappers.CakeMapper;
 import com.models.Cake;
 import com.models.Type;
 import com.utils.MyBatisUtil;
-import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -16,65 +15,30 @@ import java.util.List;
 public class CakeDAO {
 
     public List<Cake> selectCakesFromDB() {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        CakeMapper mapper = session.getMapper(CakeMapper.class);
-        List<Cake> cakes = mapper.selectCakesFromDB();
-        session.close();
+        List<Cake> cakes = MyBatisUtil.testSearch(CakeMapper.class, (m) -> m.selectCakesFromDB());
         return cakes;
     }
 
     public Cake selectCakeById(Integer id) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        CakeMapper mapper = session.getMapper(CakeMapper.class);
-        Cake cake = mapper.selectCakeById(id);
-        session.close();
+        Cake cake = MyBatisUtil.testSearch(CakeMapper.class, (m) -> m.selectCakeById(id));
         return cake;
     }
 
     public List<Cake> selectCakesFromDBByType(Type type) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        CakeMapper mapper = session.getMapper(CakeMapper.class);
-        List<Cake> cakes = mapper.selectCakesFromDBByType(type);
-        session.close();
+        List<Cake> cakes = MyBatisUtil.testSearch(CakeMapper.class, (m) -> m.selectCakesFromDBByType(type));
         return cakes;
     }
 
     public boolean insertCake(Cake cake){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        CakeMapper mapper = session.getMapper(CakeMapper.class);
-        mapper.insertCake(cake);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(CakeMapper.class, (m) -> m.insertCake(cake));
         return true;
     }
     public boolean updateCake(Cake cake){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        CakeMapper mapper = session.getMapper(CakeMapper.class);
-        mapper.updateCake(cake);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(CakeMapper.class, (m) -> m.updateCake(cake));
         return true;
     }
     public boolean deleteCake(Integer id){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        CakeMapper mapper = session.getMapper(CakeMapper.class);
-        mapper.deleteCake(id);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(CakeMapper.class, (m) -> m.deleteCake(id));
         return true;
     }
-
-//    public boolean deleteAddress(Integer id){
-//        test(AddressMapper.class, (m) -> m.deleteAddress(id));
-//        return true;
-//    }
-//
-//    private <T, M> T test(Class<M> mapperClass, Function<M, T> function) {
-//        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-//        M mapper = session.getMapper(mapperClass);
-//        T result = function.apply(mapper);
-//        session.commit();
-//        session.close();
-//        return result;
-//    }
 }

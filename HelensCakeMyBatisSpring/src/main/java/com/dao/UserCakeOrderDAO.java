@@ -4,7 +4,6 @@ import com.mappers.AddressMapper;
 import com.mappers.UserCakeOrderMapper;
 import com.models.UserCakeOrder;
 import com.utils.MyBatisUtil;
-import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
@@ -14,65 +13,44 @@ import java.util.List;
 public class UserCakeOrderDAO {
 
     public List<UserCakeOrder> selectUserCakeOrdersFromDB() {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserCakeOrderMapper mapper = session.getMapper(UserCakeOrderMapper.class);
-        List<UserCakeOrder> userCakeOrders = mapper.selectUserCakeOrdersFromDB();
-        session.close();
+        List<UserCakeOrder> userCakeOrders =
+                MyBatisUtil.testSearch(UserCakeOrderMapper.class, (m) -> m.selectUserCakeOrdersFromDB());
         return userCakeOrders;
     }
 
     public UserCakeOrder selectUserCakeOrderById(Integer id) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserCakeOrderMapper mapper = session.getMapper(UserCakeOrderMapper.class);
-        UserCakeOrder userCakeOrder = mapper.selectUserCakeOrderById(id);
-        session.close();
+        UserCakeOrder userCakeOrder =
+                MyBatisUtil.testSearch(UserCakeOrderMapper.class, (m) -> m.selectUserCakeOrderById(id));
         return userCakeOrder;
     }
 
     public List<UserCakeOrder> selectUserCakeOrdersByUserId(Integer userId) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserCakeOrderMapper mapper = session.getMapper(UserCakeOrderMapper.class);
-        List<UserCakeOrder> userCakeOrders = mapper.selectUserCakeOrdersByUserId(userId);
-        session.close();
+        List<UserCakeOrder> userCakeOrders =
+                MyBatisUtil.testSearch(UserCakeOrderMapper.class, (m) -> m.selectUserCakeOrdersByUserId(userId));
         return userCakeOrders;
     }
 
     public List<UserCakeOrder> selectUserCakeOrdersByDate(LocalDateTime localDateTime) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserCakeOrderMapper mapper = session.getMapper(UserCakeOrderMapper.class);
-        List<UserCakeOrder> userCakeOrders = mapper.selectUserCakeOrdersByDate(localDateTime);
-        session.close();
+        List<UserCakeOrder> userCakeOrders =
+                MyBatisUtil.testSearch(UserCakeOrderMapper.class, (m) -> m.selectUserCakeOrdersByDate(localDateTime));
         return userCakeOrders;
     }
 
     public boolean insertUserCakeOrderByUserId(UserCakeOrder userCakeOrder, Integer userId) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserCakeOrderMapper userCakeOrderMapper = session.getMapper(UserCakeOrderMapper.class);
-        userCakeOrderMapper.insertUserCakeOrderByUserId(userCakeOrder, userId);
+        MyBatisUtil.test(UserCakeOrderMapper.class, (m) -> m.insertUserCakeOrderByUserId(userCakeOrder, userId));
         if(userCakeOrder.getNeedDelivery()) {
-            AddressMapper addressMapper = session.getMapper(AddressMapper.class);
-            addressMapper.insertAddressByOrderId(userCakeOrder.getAddress(), userId);
+            MyBatisUtil.testSearch(AddressMapper.class, (m) -> m.insertAddressByOrderId(userCakeOrder.getAddress(), userId));
         }
-        session.commit();
-        session.close();
         return true;
     }
 
     public boolean updateUserCakeOrderById(UserCakeOrder userCakeOrder) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserCakeOrderMapper mapper = session.getMapper(UserCakeOrderMapper.class);
-        mapper.updateUserCakeOrderById(userCakeOrder);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(UserCakeOrderMapper.class, (m) -> m.updateUserCakeOrderById(userCakeOrder));
         return true;
     }
 
     public boolean deleteUserCakeOrder(Integer id){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserCakeOrderMapper mapper = session.getMapper(UserCakeOrderMapper.class);
-        mapper.deleteUserCakeOrder(id);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(UserCakeOrderMapper.class, (m) -> m.deleteUserCakeOrder(id));
         return true;
     }
 }

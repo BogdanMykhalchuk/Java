@@ -3,7 +3,6 @@ package com.dao;
 import com.mappers.UserPrintOrderMapper;
 import com.models.UserPrintOrder;
 import com.utils.MyBatisUtil;
-import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
@@ -13,60 +12,40 @@ import java.util.List;
 public class UserPrintOrderDAO {
 
     public List<UserPrintOrder> selectUserPrintOrdersFromDB() {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserPrintOrderMapper mapper = session.getMapper(UserPrintOrderMapper.class);
-        List<UserPrintOrder> userPrintOrders = mapper.selectUserPrintOrdersFromDB();
-        session.close();
+        List<UserPrintOrder> userPrintOrders =
+                MyBatisUtil.testSearch(UserPrintOrderMapper.class, (m) -> m.selectUserPrintOrdersFromDB());
         return userPrintOrders;
     }
 
     public UserPrintOrder selectUserPrintOrderById(Integer id) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserPrintOrderMapper mapper = session.getMapper(UserPrintOrderMapper.class);
-        UserPrintOrder userPrintOrder = mapper.selectUserPrintOrderById(id);
-        session.close();
+        UserPrintOrder userPrintOrder =
+                MyBatisUtil.testSearch(UserPrintOrderMapper.class, (m) -> m.selectUserPrintOrderById(id));
         return userPrintOrder;
     }
 
     public List<UserPrintOrder> selectUserPrintOrdersByUserId(Integer userId) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserPrintOrderMapper mapper = session.getMapper(UserPrintOrderMapper.class);
-        List<UserPrintOrder> userPrintOrders = mapper.selectUserPrintOrdersByUserId(userId);
-        session.close();
+        List<UserPrintOrder> userPrintOrders =
+                MyBatisUtil.testSearch(UserPrintOrderMapper.class, (m) -> m.selectUserPrintOrdersByUserId(userId));
         return userPrintOrders;
     }
 
     public List<UserPrintOrder> selectUserPrintOrdersByDate(LocalDateTime localDateTime) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserPrintOrderMapper mapper = session.getMapper(UserPrintOrderMapper.class);
-        List<UserPrintOrder> userPrintOrders = mapper.selectUserPrintOrdersByDate(localDateTime);
-        session.close();
+        List<UserPrintOrder> userPrintOrders =
+                MyBatisUtil.testSearch(UserPrintOrderMapper.class, (m) -> m.selectUserPrintOrdersByDate(localDateTime));
         return userPrintOrders;
     }
 
     public boolean insertUserPrintOrderByUserId(UserPrintOrder userPrintOrder, Integer userId) {
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserPrintOrderMapper userPrintOrderMapper = session.getMapper(UserPrintOrderMapper.class);
-        userPrintOrderMapper.insertUserPrintOrderByUserId(userPrintOrder, userId);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(UserPrintOrderMapper.class, (m) -> m.insertUserPrintOrderByUserId(userPrintOrder, userId));
         return true;
     }
 
     public boolean updateUserPrintOrder(UserPrintOrder userPrintOrder){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserPrintOrderMapper mapper = session.getMapper(UserPrintOrderMapper.class);
-        mapper.updateUserPrintOrder(userPrintOrder);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(UserPrintOrderMapper.class, (m) -> m.updateUserPrintOrder(userPrintOrder));
         return true;
     }
     public boolean deleteUserPrintOrder(Integer id){
-        SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
-        UserPrintOrderMapper mapper = session.getMapper(UserPrintOrderMapper.class);
-        mapper.deleteUserPrintOrder(id);
-        session.commit();
-        session.close();
+        MyBatisUtil.test(UserPrintOrderMapper.class, (m) -> m.deleteUserPrintOrder(id));
         return true;
     }
 }
