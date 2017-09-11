@@ -11,7 +11,7 @@ public class StorageProperties {
     /**
      * Folder location for storing files
      */
-    private String location = "upload-dir";
+    private String location = "D:\\Bogdan\\Job\\Java\\Java\\HelensCakeMyBatisSpring\\src\\main\\webapp\\img\\loaded\\";
 
     public String getLocation() {
         return location;

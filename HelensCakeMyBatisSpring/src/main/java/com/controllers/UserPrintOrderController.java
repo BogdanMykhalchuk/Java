@@ -34,6 +34,6 @@ public class UserPrintOrderController {
     @RequestMapping(value = "/userPrintOrderController/getToCreatePrintOrderPage")
     public String getToCreatePrintOrderPage(Model model) {
 
-        return "printOrder";
+        return "user/orderCreationPages/printOrder";
     }
 }
